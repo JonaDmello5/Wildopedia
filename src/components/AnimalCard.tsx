@@ -9,7 +9,7 @@ interface AnimalCardProps {
 
 const AnimalCard = ({ animal }: AnimalCardProps) => {
   return (
-    <Link href={`/${animal.category.toLowerCase()}/${animal.slug}`} passHref>
+    <Link href={`/${animal.category.toLowerCase().replace(' ', '-')}/${animal.slug}`} passHref>
       <Card className="group h-full transform overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl">
         <CardHeader className="p-0">
           <div className="relative h-48 w-full">

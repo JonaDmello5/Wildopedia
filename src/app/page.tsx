@@ -50,7 +50,7 @@ export default function Home() {
         </div>
         <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {categories.map((category) => (
-            <Link key={category.name} href={`/${category.name.toLowerCase()}`} passHref>
+            <Link key={category.name} href={`/${category.name.toLowerCase().replace(' ', '-')}`} passHref>
               <Card className="group transform cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl">
                 <CardContent className="flex flex-col items-center justify-center p-6">
                   {category.icon}

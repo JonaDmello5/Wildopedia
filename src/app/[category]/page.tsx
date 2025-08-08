@@ -5,12 +5,12 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export async function generateStaticParams() {
   return categories.map((category) => ({
-    category: category.toLowerCase(),
+    category: category.toLowerCase().replace(' ', '-'),
   }));
 }
 
 export function generateMetadata({ params }: { params: { category: string } }) {
-    const categoryName = params.category.charAt(0).toUpperCase() + params.category.slice(1);
+    const categoryName = params.category.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase());
     return {
         title: `${categoryName} | Wildopedia`,
         description: `Explore all animals in the ${categoryName} category.`,
@@ -19,16 +19,18 @@ export function generateMetadata({ params }: { params: { category: string } }) {
 
 
 const CategoryPage = ({ params }: { params: { category: string } }) => {
-  const categoryName = params.category.charAt(0).toUpperCase() + params.category.slice(1);
-  if (!categories.map(c => c.toLowerCase()).includes(params.category.toLowerCase())) {
+  const categorySlug = params.category.toLowerCase();
+  const categoryName = categorySlug.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase());
+  
+  if (!categories.map(c => c.toLowerCase().replace(' ', '-')).includes(categorySlug)) {
     notFound();
   }
 
-  const animalsInCategory = getAnimalsByCategory(params.category);
+  const animalsInCategory = getAnimalsByCategory(categoryName);
 
   const breadcrumbs = [
     { href: '/', label: 'Home' },
-    { href: `/${params.category}`, label: categoryName },
+    { href: `/${categorySlug}`, label: categoryName },
   ];
 
   return (

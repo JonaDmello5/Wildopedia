@@ -103,4 +103,4 @@ export const animals: Animal[] = [
 export const categories = ['Mammals', 'Birds', 'Reptiles', 'Marine Life'];
 
 export const getAnimalBySlug = (slug: string) => animals.find(a => a.slug === slug);
-export const getAnimalsByCategory = (category: string) => animals.filter(a => a.category.toLowerCase() === category.toLowerCase());
+export const getAnimalsByCategory = (category: string) => animals.filter(a => a.category === category);
