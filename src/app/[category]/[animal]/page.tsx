@@ -32,12 +32,12 @@ export function generateMetadata({ params }: { params: { animal: string } }) {
 const AnimalProfilePage = ({ params }: { params: { category: string; animal: string } }) => {
   const animal = getAnimalBySlug(params.animal);
 
-  // Corrected validation logic
-  if (!animal || animal.category.toLowerCase().replace(/\s+/g, '-') !== params.category) {
+  // Corrected validation logic to handle different casing and spacing
+  if (!animal || animal.category.toLowerCase().replace(/\s+/g, '-') !== params.category.toLowerCase()) {
     notFound();
   }
-
-  const breadcrumbs = [
+  
+    const breadcrumbs = [
     { href: '/', label: 'Home' },
     { href: `/${animal.category.toLowerCase().replace(/\s+/g, '-')}`, label: animal.category },
     { href: `/${animal.category.toLowerCase().replace(/\s+/g, '-')}/${animal.slug}`, label: animal.commonName },
