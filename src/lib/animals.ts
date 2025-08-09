@@ -38,7 +38,7 @@ export const animals: Animal[] = [
       weight: 'Up to 6,000 kg (13,000 lbs)',
       conservation: 'Vulnerable',
     },
-    relatedSpecies: ['asian-elephant', 'woolly-mammoth'],
+    relatedSpecies: [],
     videoUrl: 'https://www.youtube.com/embed/nS_3Uv_2A7c',
   },
   {
@@ -58,7 +58,7 @@ export const animals: Animal[] = [
       weight: 'Up to 300 kg (660 lbs)',
       conservation: 'Endangered',
     },
-    relatedSpecies: ['bengal-tiger', 'lion'],
+    relatedSpecies: ['lion'],
   },
   {
     slug: 'red-panda',
@@ -96,7 +96,7 @@ export const animals: Animal[] = [
       weight: '35-60 kg',
       conservation: 'Vulnerable',
     },
-    relatedSpecies: ['lion', 'leopard'],
+    relatedSpecies: ['lion', 'jaguar'],
   },
   {
     slug: 'giant-panda',
@@ -115,7 +115,7 @@ export const animals: Animal[] = [
       weight: 'Up to 125 kg (275 lbs)',
       conservation: 'Vulnerable',
     },
-    relatedSpecies: ['red-panda', 'polar-bear'],
+    relatedSpecies: ['red-panda'],
   },
   {
     slug: 'lion',
@@ -134,7 +134,7 @@ export const animals: Animal[] = [
       weight: '120-200 kg (265-440 lbs)',
       conservation: 'Vulnerable',
     },
-    relatedSpecies: ['siberian-tiger', 'bengal-tiger'],
+    relatedSpecies: ['siberian-tiger'],
   },
   {
     slug: 'jaguar',
@@ -153,7 +153,7 @@ export const animals: Animal[] = [
       weight: '70-100 kg (154-220 lbs)',
       conservation: 'Near Threatened',
     },
-    relatedSpecies: ['siberian-tiger', 'leopard'],
+    relatedSpecies: ['siberian-tiger', 'cheetah'],
   },
   {
     slug: 'scarlet-macaw',
@@ -172,7 +172,7 @@ export const animals: Animal[] = [
       weight: 'About 1 kg (2.2 lbs)',
       conservation: 'Least Concern',
     },
-    relatedSpecies: ['blue-and-yellow-macaw', 'hyacinth-macaw'],
+    relatedSpecies: ['blue-and-yellow-macaw'],
   },
   {
     slug: 'bald-eagle',
@@ -191,7 +191,7 @@ export const animals: Animal[] = [
       weight: '3 to 6.3 kg (6.6 to 14 lbs)',
       conservation: 'Least Concern',
     },
-    relatedSpecies: ['white-tailed-eagle', 'golden-eagle'],
+    relatedSpecies: [],
     videoUrl: 'https://www.youtube.com/embed/9T-g3gGUTLw',
   },
   {
@@ -211,7 +211,7 @@ export const animals: Animal[] = [
       weight: '0.9-1.5 kg (2-3.3 lbs)',
       conservation: 'Least Concern',
     },
-    relatedSpecies: ['scarlet-macaw', 'hyacinth-macaw'],
+    relatedSpecies: ['scarlet-macaw'],
   },
   {
     slug: 'emperor-penguin',
@@ -230,7 +230,7 @@ export const animals: Animal[] = [
       weight: '22 to 45 kg (49 to 99 lbs)',
       conservation: 'Near Threatened',
     },
-    relatedSpecies: ['king-penguin', 'adele-penguin'],
+    relatedSpecies: [],
   },
   {
     slug: 'komodo-dragon',
@@ -249,7 +249,7 @@ export const animals: Animal[] = [
       weight: 'Around 70 kg (150 lbs)',
       conservation: 'Endangered',
     },
-    relatedSpecies: ['perentie-monitor', 'water-monitor'],
+    relatedSpecies: [],
     videoUrl: 'https://www.youtube.com/embed/rGN8K-9V9UQ',
   },
   {
@@ -269,7 +269,7 @@ export const animals: Animal[] = [
       weight: 'Up to 190 kg (420 lbs)',
       conservation: 'Endangered',
     },
-    relatedSpecies: ['hawksbill-sea-turtle', 'leatherback-sea-turtle'],
+    relatedSpecies: ['leatherback-sea-turtle'],
   },
   {
     slug: 'leatherback-sea-turtle',
@@ -288,7 +288,7 @@ export const animals: Animal[] = [
       weight: '250 to 700 kg (550 to 1,540 lb)',
       conservation: 'Vulnerable',
     },
-    relatedSpecies: ['green-sea-turtle', 'hawksbill-sea-turtle'],
+    relatedSpecies: ['green-sea-turtle'],
   },
   {
     slug: 'saltwater-crocodile',
@@ -307,7 +307,7 @@ export const animals: Animal[] = [
       weight: 'Up to 1,000 kg (2,200 lbs)',
       conservation: 'Least Concern',
     },
-    relatedSpecies: ['nile-crocodile', 'american-alligator'],
+    relatedSpecies: [],
   },
   {
     slug: 'clownfish',
@@ -326,7 +326,7 @@ export const animals: Animal[] = [
       weight: 'Up to 250 grams',
       conservation: 'Not evaluated for most species, but threatened by reef degradation.',
     },
-    relatedSpecies: ['damselfish', 'sea-anemone'],
+    relatedSpecies: ['orca'],
   },
   {
     slug: 'great-white-shark',
@@ -345,7 +345,7 @@ export const animals: Animal[] = [
       weight: 'Up to 2,268 kg (5,000 lbs)',
       conservation: 'Vulnerable',
     },
-    relatedSpecies: ['mako-shark', 'tiger-shark'],
+    relatedSpecies: ['orca'],
   },
   {
     slug: 'orca',
@@ -383,7 +383,7 @@ export const animals: Animal[] = [
       weight: '150 to 650 kg (330 to 1,430 lbs)',
       conservation: 'Least Concern',
     },
-    relatedSpecies: ['orca', 'spinner-dolphin'],
+    relatedSpecies: ['orca'],
   },
 ];
 
