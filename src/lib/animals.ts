@@ -480,6 +480,82 @@ export const animals: Animal[] = [
     relatedSpecies: [],
   },
   {
+    slug: 'kiwi',
+    name: 'Apteryx spp.',
+    category: 'Birds',
+    commonName: 'Kiwi',
+    description: 'The nocturnal wonder of New Zealand, a bird that thinks it’s a mammal – sniffing out worms in the night with whiskers on its beak.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The kiwi is one of the world’s most unique birds, often described as a bird that thinks it a mammal. Found in New Zealand, these nocturnal, flightless birds are about the size of a domestic chicken but have no visible wings and their plumage is more like fur. A defining feature is their long, slender beak with nostrils at the tip, allowing them to sniff out prey in the forest floor. They have whisker-like bristles at the base of their beak and poor eyesight, but an excellent sense of smell and hearing, making them perfectly adapted for their nocturnal, ground-dwelling life. Their evolution on an island without native terrestrial mammals led them to fill a niche similar to hedgehogs or badgers in other parts of the world.',
+    habitat: 'Kiwis are found in the forests and scrublands of New Zealand. They are territorial and mostly solitary, spending their days hidden in burrows, hollow logs, or dense vegetation. They emerge at night to forage.',
+    diet: 'Their diet consists primarily of worms, grubs, insects, seeds, and berries. They use their long beaks to probe the forest floor for food.',
+    behavior: 'Kiwis are largely nocturnal. They are known for their feisty nature and strong legs with sharp claws. Many species are monogamous, forming long-lasting pair bonds. Their reproductive strategy is astounding: the female lays an enormous egg (up to 15% of her body weight), which the male typically incubates for an extended period. The chicks hatch extremely well-developed and are not fed by their parents.',
+    status: {
+      lifespan: '30-50 years',
+      weight: '2-3 kg',
+      conservation: 'Vulnerable',
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'common-raven',
+    name: 'Corvus corax',
+    category: 'Birds',
+    commonName: 'Common Raven',
+    description: 'The shadowy genius of the woodlands and cliffs, a playful trickster with a raucous voice and a mind keen as a wolf’s.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The common raven is the largest passerine (songbird) and a powerful, all-black bird with a distinctive wedge-shaped tail and a massive bill. Known for its incredible intelligence, it can solve complex problems, use tools, and communicate with a wide range of vocalizations, including mimicry. Ravens are highly adaptable and are found across the Northern Hemisphere in various habitats. They are often seen soaring on thermals and performing aerial acrobatics. These birds are also key scavengers and have been observed forming foraging partnerships with wolves.',
+    habitat: 'Common ravens are highly versatile and live across the Northern Hemisphere, inhabiting a wide range of environments including Arctic tundra, boreal forests, mountains, deserts, and coastal cliffs. They are also found in rural areas and can adapt to human-altered landscapes, though they are typically outcompeted by crows in urban centers.',
+    diet: 'Ravens are opportunistic omnivores and scavengers. Their diet is extremely varied and includes carrion, insects, small mammals, eggs, nestlings, grains, berries, and human garbage. Their powerful beaks allow them to tear into tough hides and crack bones.',
+    behavior: 'Ravens are among the most intelligent birds, capable of complex problem-solving and displaying insight and planning. They form long-term monogamous pairs that defend a territory. Unpaired juvenile ravens often roam in social gangs. They communicate with a diverse range of sounds and have been observed using non-vocal gestures, like pointing with their beaks. Play is a significant part of their behavior, especially among younger birds.',
+    status: {
+      lifespan: '10-20 years in the wild, longer in captivity',
+      weight: '0.69-2 kg (1.5-4.4 lbs)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'indian-peafowl',
+    name: 'Pavo cristatus',
+    category: 'Birds',
+    commonName: 'Indian Peafowl',
+    description: 'The resplendent garden sentinel, unfurling a living fan of iridescent eyes to mesmerize rivals and admirers alike.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The Indian peafowl, commonly known as the peacock, is famous for the male’s extravagant and iridescent train of feathers. This spectacular train, which can be over two meters long, is displayed to attract females. Females, or peahens, are much more subdued in color for camouflage while nesting. Native to the Indian subcontinent, peafowl are large, ground-dwelling birds that forage for food during the day and roost in trees at night. Their loud, distinctive calls are a familiar sound in their native habitat. The Indian peafowl is the national bird of India and a symbol of beauty and pride worldwide.',
+    habitat: 'Indian peafowl are native to the Indian subcontinent, where they live in deciduous forests, scrublands, and near villages. They are terrestrial birds, spending most of their time on the ground foraging, but they fly up to trees to roost at night for safety from predators.',
+    diet: 'Peafowl are omnivores, eating a variety of foods including grains, seeds, fruits, insects, and small animals. They are known to hunt and eat snakes, which has made them a welcome presence in rural areas.',
+    behavior: 'During breeding season, male peacocks display their magnificent trains in a loose lek system to attract females. The peahen chooses a mate based on the size and quality of the display. After mating, the female builds a ground nest and incubates the eggs alone. Males provide no parental care. Peafowl are social birds, often forming small flocks of females and juveniles, with males either solitary or in bachelor groups outside of the breeding season.',
+    status: {
+      lifespan: '10-25 years in the wild',
+      weight: 'Male: 4-6 kg (9-13 lbs); Female: 2.75-4 kg (6-9 lbs)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'common-ostrich',
+    name: 'Struthio camelus',
+    category: 'Birds',
+    commonName: 'Common Ostrich',
+    description: 'The giant sprinter of the savanna, with eyes like saucers and a kick that can fell a lion – the world’s biggest bird that doesn’t fly, but boy can it run.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The common ostrich is the world’s largest living bird, known for its immense size, flightless nature, and incredible speed. Standing up to 9 feet tall and weighing up to 330 lbs, ostriches are built for sprinting, capable of reaching speeds up to 45 mph. Their powerful legs, with a unique two-toed foot, are their primary defense and a key to their survival on the African savanna. Ostriches have the largest eyes of any land animal, giving them keen eyesight to spot predators from a distance, often serving as a sentinel for other grazing animals.',
+    habitat: 'Ostriches are native to the savannas and semi-arid regions of Africa. They are nomadic birds that live in loose groups, often alongside other grazing animals like zebras and antelopes. They have a high tolerance for dry conditions, extracting moisture from their plant-based diet.',
+    diet: 'Ostriches are primarily herbivores, grazing on grasses, seeds, and flowers, but they are also opportunistic omnivores. They supplement their diet with insects and other small creatures. They swallow pebbles to aid in digestion.',
+    behavior: 'During breeding season, males perform an elaborate courtship dance to attract a dominant hen and other females. These females lay their eggs in a communal nest, with the male and dominant female sharing incubation duties. Ostrich eggs are the largest of any bird. Parents are fiercely protective of their young, and a well-aimed kick can be a lethal defense against predators like lions. Chicks are precocial, able to run and feed themselves within hours of hatching.',
+    status: {
+      lifespan: '40-50 years',
+      weight: 'Up to 150 kg (330 lbs)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
     slug: 'komodo-dragon',
     name: 'Varanus komodoensis',
     category: 'Reptiles',
@@ -519,25 +595,6 @@ export const animals: Animal[] = [
     relatedSpecies: ['leatherback-sea-turtle'],
   },
   {
-    slug: 'leatherback-sea-turtle',
-    name: 'Dermochelys coriacea',
-    category: 'Reptiles',
-    commonName: 'Leatherback Sea Turtle',
-    description: 'The largest of all living turtles and is the fourth-heaviest modern reptile.',
-    imageUrl: 'https://placehold.co/400x300.png',
-    bannerUrl: 'https://placehold.co/1200x400.png',
-    overview: 'The leatherback sea turtle, sometimes called the lute turtle or leathery turtle, is the largest of all living turtles. It can easily be differentiated from other modern sea turtles by its lack of a bony shell, hence the name. Instead, its carapace is covered by skin and oily flesh.',
-    habitat: 'They are found in the open ocean and have the widest distribution of any sea turtle, ranging from the tropics to sub-polar regions.',
-    diet: 'Their diet consists almost entirely of jellyfish and other soft-bodied invertebrates.',
-    behavior: 'They are the most migratory of all sea turtle species, undertaking long-distance migrations between feeding and nesting grounds.',
-    status: {
-      lifespan: 'Around 30 years in the wild',
-      weight: '250 to 700 kg (550 to 1,540 lb)',
-      conservation: 'Vulnerable',
-    },
-    relatedSpecies: ['green-sea-turtle'],
-  },
-  {
     slug: 'saltwater-crocodile',
     name: 'Crocodylus porosus',
     category: 'Reptiles',
@@ -557,23 +614,441 @@ export const animals: Animal[] = [
     relatedSpecies: [],
   },
   {
-    slug: 'clownfish',
-    name: 'Amphiprioninae',
-    category: 'Marine Life',
-    commonName: 'Clownfish',
-    description: 'A small, brightly colored fish famous for its symbiotic relationship with sea anemones.',
+    slug: 'king-cobra',
+    name: 'Ophiophagus hannah',
+    category: 'Reptiles',
+    commonName: 'King Cobra',
+    description: 'The longest venomous snake in the world, with a formidable reputation and a unique ability to hunt and eat other snakes.',
     imageUrl: 'https://placehold.co/400x300.png',
     bannerUrl: 'https://placehold.co/1200x400.png',
-    overview: 'Clownfish, or anemonefish, are small fish found in warmer waters of the Indian and Pacific oceans. They are known for their striking orange and white patterns. There are about 30 recognized species.',
-    habitat: 'They form a symbiotic relationship with sea anemones. The clownfish is protected from the anemone\'s stinging cells by a layer of mucus, and in turn, the clownfish defends the anemone from predators.',
-    diet: 'Clownfish are omnivores. They eat a variety of small invertebrates and algae, as well as undigested food from their host anemones.',
-    behavior: 'Clownfish live in a strict hierarchy within a single anemone. The largest and most aggressive female is at the top. All clownfish are born male; they have the ability to change sex to become the dominant female if the previous one dies.',
+    overview: 'The king cobra is a formidable and highly intelligent snake native to South and Southeast Asia. It is the world’s longest venomous snake, with some individuals reaching nearly 20 feet in length. Despite its fearsome reputation, the king cobra is generally shy and reclusive, preferring to avoid human contact. When threatened, it performs a stunning threat display by raising the front portion of its body, spreading a narrow hood, and hissing with a low, growling sound.',
+    habitat: 'King cobras inhabit rainforests, dense woodlands, and bamboo thickets, often found near streams and swamps. Their range extends from India and Bangladesh through Southeast Asia to Indonesia and the Philippines. They are expert swimmers and climbers, favoring areas with ample prey and cover.',
+    diet: 'As its scientific name "Ophiophagus" (snake-eater) suggests, the king cobra’s diet consists primarily of other snakes, including pythons and other venomous species. It is immune to many snake venoms. When other snakes are scarce, it may also consume lizards, eggs, and small mammals.',
+    behavior: 'King cobras are diurnal and known for their high intelligence. They are unique among snakes for building and guarding a nest for their eggs, with the female fiercely protecting the clutch throughout the two-month incubation period. Males engage in ritualistic combat to establish dominance. They communicate through a variety of vocalizations, including a distinctive growling hiss.',
     status: {
-      lifespan: '6-10 years',
-      weight: 'Up to 250 grams',
-      conservation: 'Not evaluated for most species, but threatened by reef degradation.',
+      lifespan: 'Up to 20 years',
+      weight: 'Up to 9 kg (20 lbs)',
+      conservation: 'Vulnerable'
     },
-    relatedSpecies: ['orca'],
+    relatedSpecies: []
+  },
+  {
+    slug: 'green-anaconda',
+    name: 'Eunectes murinus',
+    category: 'Reptiles',
+    commonName: 'Green Anaconda',
+    description: 'The heaviest snake in the world, a formidable aquatic predator of the Amazon and Orinoco river basins.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The green anaconda is a massive, non-venomous snake native to South America, known for being the heaviest snake on Earth. Largely aquatic, it spends most of its time submerged in the murky waters of tropical swamps and rivers. It is an apex predator that ambushes its prey from the water, killing by constriction. Anacondas are solitary creatures, coming together only to mate. After a gestation of about six months, the female gives live birth to fully independent young.',
+    habitat: 'Green anacondas inhabit the waterways of the Amazon and Orinoco basins, thriving in lowland swamps, slow-moving rivers, and flooded rainforests. They prefer muddy, vegetation-choked waters where they can remain hidden with only their eyes and nostrils exposed.',
+    diet: 'As an apex predator, the anaconda’s diet includes fish, birds, turtles, and large mammals like capybaras and deer. It is an ambush predator, using its muscular body to constrict and suffocate its prey. A large meal can sustain an anaconda for weeks or even months.',
+    behavior: 'Green anacondas are strong swimmers but are sluggish on land. They are mostly solitary, hunting at night or twilight. During the breeding season, multiple males may compete for a female in a "breeding ball." Females are significantly larger than males and give live birth to 20-40 young, who are independent from birth and receive no parental care.',
+    status: {
+      lifespan: 'Up to 10 years in the wild, longer in captivity',
+      weight: 'Up to 250 kg (550 lbs)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'galapagos-giant-tortoise',
+    name: 'Chelonoidis niger',
+    category: 'Reptiles',
+    commonName: 'Galápagos Giant Tortoise',
+    description: 'The world’s largest tortoise, an ancient giant with an iconic domed shell and a famously long lifespan.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The Galápagos giant tortoise is a magnificent reptile native to the Galápagos Islands, famous for its massive size and longevity. These gentle, slow-moving giants played a crucial role in Charles Darwin’s theory of evolution, with different island populations displaying unique shell shapes. They are herbivores that can go for long periods without food or water, a trait that once made them a tragic food source for sailors. Today, they are a symbol of conservation efforts and a key attraction for tourists visiting the Galápagos National Park.',
+    habitat: 'Galápagos giant tortoises inhabit several of the larger Galápagos Islands, where they roam a variety of landscapes from lush highlands to arid lowlands. They are terrestrial and spend their time foraging, resting, and wallowing in mud puddles to stay cool.',
+    diet: 'As herbivores, their diet consists of grasses, leaves, fruits, and cactus pads. They have a slow metabolism and can survive for up to a year on stored fat and water, allowing them to endure long periods between meals or water sources.',
+    behavior: 'These tortoises are known for their docile, unhurried nature. They spend most of their time resting or sleeping to conserve energy. On some islands, they undertake seasonal migrations between different elevations to find food. Males establish dominance through a simple neck-stretching contest. Females travel to sandy areas to lay their eggs in nests, which they then abandon, leaving the young to hatch and fend for themselves.',
+    status: {
+      lifespan: 'Over 100 years',
+      weight: 'Up to 300 kg (660 lbs)',
+      conservation: 'Varies by subspecies, but overall "Vulnerable"'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'leatherback-sea-turtle',
+    name: 'Dermochelys coriacea',
+    category: 'Reptiles',
+    commonName: 'Leatherback Sea Turtle',
+    description: 'The largest sea turtle and the widest-ranging reptile, with a leathery shell and an ability to thrive in cold ocean waters.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The leatherback sea turtle is a true ocean wanderer, undertaking some of the longest migrations of any animal. It is the largest of all living sea turtles and is unique among them for its lack of a hard bony shell; its back is covered in tough, oily, black skin. This pelagic reptile can tolerate cold waters that would be fatal to other sea turtles due to its size, insulation, and special circulatory adaptations. Known for its deep dives and an exclusive diet of jellyfish, the leatherback is a critical indicator of ocean health and a flagship species for marine conservation.',
+    habitat: 'Leatherbacks inhabit the open ocean across the globe, from the tropics to subarctic regions, giving them the widest distribution of any reptile. They are pelagic, spending almost all of their lives at sea and only coming ashore for females to lay eggs on tropical and subtropical sandy beaches.',
+    diet: 'Their diet consists almost exclusively of jellyfish and other soft-bodied marine invertebrates. They have delicate, scissor-like jaws for eating their prey and backward-facing spines in their throat to prevent the slippery jellyfish from escaping. Their diet makes them highly vulnerable to ingesting plastic bags, which they often mistake for food.',
+    behavior: 'Leatherbacks are long-distance migrants and expert divers, capable of diving to depths of over 1,200 meters (4,000 feet) in search of prey. They are strong swimmers, using their massive front flippers for propulsion. Females come ashore at night to lay clutches of about 80 eggs. After nesting, they return to the sea, leaving the hatchlings to emerge and find their way to the ocean on their own.',
+    status: {
+      lifespan: '40-50 years or more',
+      weight: '300-600 kg (660-1320 lbs)',
+      conservation: 'Vulnerable'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'gila-monster',
+    name: 'Heloderma suspectum',
+    category: 'Reptiles',
+    commonName: 'Gila Monster',
+    description: 'A venomous lizard of the American Southwest, known for its striking beaded skin, potent bite, and reclusive nature.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The Gila monster is a heavy, slow-moving lizard native to the deserts of the American Southwest and Mexico. It is one of only two venomous lizards in the world. With a striking pattern of black and pink or orange, it is well-camouflaged on the desert floor. Despite its fearsome reputation, the Gila monster is a reclusive creature that spends up to 90% of its life underground. Its venom, while painful, is not life-threatening to humans and has even been used to develop a drug for treating type 2 diabetes.',
+    habitat: 'Gila monsters live in the arid and semi-arid deserts of the American Southwest and northwestern Mexico. They prefer rocky, scrubby landscapes and desert washes, where they can find shelter from the extreme temperatures in burrows or under rocks.',
+    diet: 'Gila monsters are carnivores that primarily prey on eggs and newborn animals. Their diet includes the eggs of birds and reptiles, as well as young rodents and lizards. They have a slow metabolism and can consume a large meal that sustains them for weeks or months, storing fat in their tail.',
+    behavior: 'These lizards are deliberate, sluggish movers that are most active in the cooler temperatures of spring. They deliver venom by biting and chewing, latching onto their prey with their powerful jaws. When threatened, they hiss and open their mouths wide as a warning. In the intense heat and cold, they remain inactive in underground refuges.',
+    status: {
+      lifespan: '20-40 years',
+      weight: '0.9-1.5 kg (2-3.3 lbs)',
+      conservation: 'Near Threatened'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'reticulated-python',
+    name: 'Malayopython reticulatus',
+    category: 'Reptiles',
+    commonName: 'Reticulated Python',
+    description: 'The world’s longest snake, a powerful and secretive constrictor with a beautiful, net-like pattern on its skin.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The reticulated python is a formidable predator and the longest snake species on Earth. Native to the tropical regions of Southeast Asia, these pythons are known for their intricate, camouflage-like pattern and their ability to grow to immense lengths. While young pythons are adept climbers, the larger adults are primarily ground-dwellers. They are ambush predators that use their powerful coils to constrict and suffocate their prey before swallowing it whole. Despite their size, they are typically reclusive and avoid human contact.',
+    habitat: 'Reticulated pythons inhabit rainforests, woodlands, and grasslands across Southeast Asia. They are highly adaptable and are often found near water sources like rivers and streams, where they are known to be excellent swimmers. They are also known to live near human settlements, attracted by the presence of rodents and livestock.',
+    diet: 'As an apex predator, the reticulated python preys on a wide range of animals, from rodents and bats to wild pigs and deer. They are ambush hunters, striking with lightning speed and then coiling their body around the prey to kill it by constriction. They can swallow very large meals, which can sustain them for weeks or months.',
+    behavior: 'Reticulated pythons are mostly nocturnal and solitary. They are strong and can be aggressive if threatened, but they generally prefer to slither away from confrontation. During the breeding season, females lay a large clutch of eggs and will coil around them to protect and incubate them for several months. Once the eggs hatch, the young snakes are left to fend for themselves.',
+    status: {
+      lifespan: '20-30 years',
+      weight: 'Up to 100 kg (220 lbs)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'inland-taipan',
+    name: 'Oxyuranus microlepidotus',
+    category: 'Reptiles',
+    commonName: 'Inland Taipan',
+    description: 'The world’s most venomous snake, a reclusive reptile of the Australian outback with a surprisingly shy temperament.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The inland taipan is a highly venomous snake native to the remote, semi-arid regions of central Australia. It holds the title for the most toxic venom of any snake in the world, though its reclusive and calm demeanor means it rarely comes into contact with humans. It is a specialist hunter of rodents, using a rapid series of strikes to quickly subdue its prey in confined spaces. This snake is a protected species and remains an elusive symbol of the vast and unforgiving Australian outback.',
+    habitat: 'Inland taipans are found in the semi-arid black soil plains of central Australia, where the borders of Queensland, South Australia, and the Northern Territory meet. They shelter in deep soil cracks and abandoned burrows to escape the extreme temperatures of the desert.',
+    diet: 'This snake preys almost exclusively on rodents, particularly the native long-haired rat. It is an ambush predator that corners its prey in burrows, delivering a rapid series of bites to inject its fast-acting venom, which paralyzes the rodent almost instantly.',
+    behavior: 'The inland taipan is a calm and reclusive snake that typically retreats from a threat. If provoked with no escape, it can strike multiple times in quick succession. Its coloration changes seasonally to help regulate body temperature—darker in winter to absorb heat and lighter in summer to reflect it. Females lay around a dozen eggs in burrows, which hatch after about two months.',
+    status: {
+      lifespan: '10-15 years in the wild, longer in captivity',
+      weight: 'Up to 2 kg (4.4 lbs)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'eastern-diamondback-rattlesnake',
+    name: 'Crotalus adamanteus',
+    category: 'Reptiles',
+    commonName: 'Eastern Diamondback Rattlesnake',
+    description: 'The largest rattlesnake in the world, an iconic and venomous predator of the Southeastern United States.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The eastern diamondback rattlesnake is the largest rattlesnake species, known for its heavy body, distinctive diamond-shaped markings, and a loud, unmistakable rattle. Despite its fearsome reputation, this snake is not aggressive and will almost always warn a potential threat with its rattle before striking. It is an ambush predator that relies on its camouflage to hunt warm-blooded prey like rabbits and rodents. The diamondback holds a significant place in American folklore and is a powerful symbol of the wildness of the Southeastern landscape.',
+    habitat: 'Eastern diamondbacks are native to the pine flatwoods, sandy woodlands, and coastal scrub of the Southeastern United States. They favor dry habitats with plenty of cover, such as palmetto thickets and longleaf pine forests. They often seek shelter in animal burrows to escape extreme weather.',
+    diet: 'This rattlesnake feeds primarily on warm-blooded animals, including rabbits, rats, squirrels, and mice. It is an ambush predator that strikes with incredible speed, injecting a potent hemotoxic venom that quickly subdues its prey. After a large meal, the snake may not eat for several weeks.',
+    behavior: 'The eastern diamondback is not aggressive and uses its rattle as a warning to deter threats. When provoked, it coils its body and strikes with a flash. They are primarily diurnal in cooler weather but become more active at dawn and dusk in the hotter months. They give birth to live young in the late summer or early fall, and the venomous newborns are immediately independent.',
+    status: {
+      lifespan: '10-20 years',
+      weight: '2.3-4.5 kg (5-10 lbs)',
+      conservation: 'Least Concern, but declining in parts of its range'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'gharial',
+    name: 'Gavialis gangeticus',
+    category: 'Reptiles',
+    commonName: 'Gharial',
+    description: 'A critically endangered crocodilian with a long, slender snout, known as the fish-eating crocodile of South Asia’s rivers.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The gharial is a highly aquatic and specialized crocodilian native to the river systems of India, Nepal, and Bangladesh. Its most distinctive feature is its extremely long, narrow snout, which is perfectly adapted for catching fish—its primary food source. Unlike other large crocodilians, the gharial poses virtually no threat to humans due to its delicate jaws. Historically revered in local folklore, the species faced near extinction in the 20th century but is now the focus of intense conservation efforts to save it from disappearing entirely.',
+    habitat: 'Gharials inhabit the deep, clear, and fast-flowing freshwater rivers of northern India and Nepal. They spend almost their entire lives in the water, only venturing onto sandy riverbanks to bask in the sun and for females to build nests during the dry season. They favor deep pools and bends in the river where they can find plenty of fish.',
+    diet: 'As a specialized piscivore, the gharial’s diet consists almost exclusively of fish. Its slender snout and over a hundred sharp, interlocking teeth are ideal for snatching slippery fish from the water with a swift, lateral sweep of the head. Younger gharials may also eat insects and small frogs.',
+    behavior: 'Gharials are the most aquatic of all crocodilians and are clumsy on land, moving by "belly-sliding." In the water, they are graceful and fast. They are generally shy of humans and will retreat to deep water when approached. During the breeding season, males develop a bulbous nasal growth called a "ghara" to produce vocalizations and attract females. Females lay their eggs in sandy nests, which they guard until the hatchlings emerge, though they do not carry the young.',
+    status: {
+      lifespan: '40-60 years',
+      weight: '150-250 kg (330-550 lbs)',
+      conservation: 'Critically Endangered'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'frilled-lizard',
+    name: 'Chlamydosaurus kingii',
+    category: 'Reptiles',
+    commonName: 'Frilled Lizard',
+    description: 'An iconic Australian lizard with a dramatic, frill-like collar that it displays to intimidate predators.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The frilled lizard, or frill-necked lizard, is a unique and fascinating reptile found in the woodlands of northern Australia and southern New Guinea. Its most recognizable feature is the large, colorful frill around its neck, which it dramatically unfurls when threatened to appear larger and more formidable. If a bluff fails, it will turn and sprint away on its hind legs like a miniature dinosaur, earning it the nickname "bicycle lizard." Frilled lizards are semi-arboreal, spending much of their time in trees where they hunt insects and find refuge.',
+    habitat: 'Frilled lizards inhabit the warm, tropical woodlands and savannas of northern Australia and southern New Guinea. They are semi-arboreal and are most often found clinging to tree trunks and branches, where they can bask in the sun and survey the ground for prey and predators.',
+    diet: 'Primarily insectivores, frilled lizards feed on a variety of arthropods such as butterflies, beetles, and spiders. They are ambush predators, perching motionlessly on a tree until they spot prey, at which point they will sprint down to the ground to snatch it up.',
+    behavior: 'The frilled lizard is famous for its defense display: it unfurls its neck frill, hisses, and gapes its mouth wide to appear intimidating. If the display fails to scare off a predator, it will run away on its hind legs to the nearest tree. These lizards are solitary and spend most of their time in trees, only coming down to hunt or lay eggs. Females lay clutches of 8-14 eggs in underground nests, and the hatchlings are independent from birth.',
+    status: {
+      lifespan: '10-20 years',
+      weight: 'Up to 500 g (1.1 lbs)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'green-basilisk-lizard',
+    name: 'Basiliscus plumifrons',
+    category: 'Reptiles',
+    commonName: 'Green Basilisk Lizard',
+    description: 'The "Jesus Christ lizard" of Central America, a reptile famous for its uncanny ability to run across the surface of water.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The green basilisk is a diurnal lizard native to the tropical rainforests of Central America. It is a semi-aquatic reptile, known for its remarkable ability to sprint upright across the surface of the water, a unique escape mechanism that has earned it the nickname "Jesus Christ lizard." Males are easily identified by the impressive fin-like crests on their head, back, and tail. While they can run on water for short distances, they are also excellent swimmers and climbers. They are agile and fast on land, using their skills to hunt insects and other small prey.',
+    habitat: 'Green basilisks inhabit the humid lowland forests of Central America, typically living near streams and rivers. They prefer areas with dense vegetation and overhanging branches at the water’s edge, providing them with both a food source and a quick escape route.',
+    diet: 'As an omnivore, the green basilisk’s diet is varied, consisting mainly of insects like beetles and dragonflies, as well as spiders and small crustaceans. They will also opportunistically eat small frogs, fish, and even some fruits and berries.',
+    behavior: 'These lizards are known for their spectacular water-running escape strategy. When threatened, they drop from their perch and sprint across the water’s surface on their hind legs to safety. They are also excellent swimmers and can stay submerged for extended periods. Males are territorial and use their crests and head-bobbing displays to court females and ward off rivals. They are generally shy and will flee from danger.',
+    status: {
+      lifespan: '5-10 years',
+      weight: '100-200 g (3.5-7 oz)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'thorny-devil',
+    name: 'Moloch horridus',
+    category: 'Reptiles',
+    commonName: 'Thorny Devil',
+    description: 'A small, spiky lizard of the Australian desert, known for its intimidating appearance and unique method of drinking water.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The thorny devil is a remarkable lizard perfectly adapted to the harsh, arid landscapes of central and western Australia. Despite its fearsome appearance—covered in a dense array of sharp, conical spines—it is a slow-moving, gentle creature that poses no threat to humans. Its spiky armor serves as a defense against predators, and its skin has a unique ability to channel water directly to its mouth through microscopic grooves, an ingenious adaptation for its desert environment. This lizard has a highly specialized diet, consuming thousands of ants a day to meet its nutritional needs.',
+    habitat: 'Thorny devils inhabit the deserts and scrublands of Australia’s arid interior. They prefer sandy or fine-gravel soils with sparse vegetation, where they can camouflage themselves and find ant trails. They are active during mild mornings and afternoons, seeking shelter in burrows or under shrubs during extreme heat and cold.',
+    diet: 'This lizard has a highly specialized diet, feeding almost exclusively on ants. It can consume thousands of small ants in a single day, using a sticky tongue to pick them off ant trails one by one. Its slow metabolism allows it to survive on a diet that is low in nutrients.',
+    behavior: 'The thorny devil’s primary defense is its spiky armor. When threatened, it can present a knob-like "false head" on its neck to confuse predators, and it can puff up its body to make its spines more prominent. It moves slowly and erratically, relying on camouflage and its spiny armor rather than speed. The lizard is solitary and not territorial. Its most unique behavior is its ability to drink water by capillary action through its skin.',
+    status: {
+      lifespan: '6-20 years',
+      weight: 'Up to 90 g (3.2 oz)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'tuatara',
+    name: 'Sphenodon punctatus',
+    category: 'Reptiles',
+    commonName: 'Tuatara',
+    description: 'An ancient reptile and the sole survivor of a prehistoric order, known for its unique anatomy and long lifespan.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The tuatara is a unique reptile endemic to New Zealand and the last living member of the order Rhynchocephalia, which flourished alongside the dinosaurs. It is a slow-growing, long-lived creature with a spiny crest on its back, a trait that gave it its Māori name, meaning "peaks on the back." Tuatara are nocturnal and can remain active in surprisingly cool temperatures. They are a symbol of New Zealand\'s unique natural heritage, and their conservation is a national priority. They are not lizards, but an entirely different and ancient lineage of reptiles.',
+    habitat: 'Tuatara are now found only on predator-free offshore islands and in protected sanctuaries in New Zealand. They favor coastal forest and shrubland habitats, where they live in burrows, often cohabiting with seabirds like petrels. Their ability to remain active in cool, maritime climates is a key survival trait.',
+    diet: 'Tuatara are carnivorous generalists, hunting invertebrates and small vertebrates at night. Their diet includes insects, spiders, earthworms, lizards, and sometimes baby birds or eggs. They have a unique double row of teeth on their upper jaw for chewing prey, though these teeth are not replaced, so older tuatara are limited to softer foods.',
+    behavior: 'Tuatara are mostly nocturnal and solitary, with males being territorial. They have a very slow life cycle, reaching sexual maturity at a late age and reproducing infrequently. Females lay clutches of 5-15 eggs, which have an exceptionally long incubation period of 11-16 months. The hatchlings are independent from birth and receive no parental care. Juveniles often hunt during the day to avoid being eaten by larger adults.',
+    status: {
+      lifespan: '60-100+ years',
+      weight: 'Up to 1.5 kg (3.3 lbs)',
+      conservation: 'Least Concern, but highly vulnerable to introduced predators'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'marine-iguana',
+    name: 'Amblyrhynchus cristatus',
+    category: 'Reptiles',
+    commonName: 'Marine Iguana',
+    description: 'The world’s only seagoing lizard, an evolutionary marvel of the Galápagos Islands that dives into the ocean to graze on algae.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The marine iguana is a unique and fascinating reptile found exclusively in the Galápagos Islands. Famous for its ability to swim and forage in the ocean, it is the only lizard species that has adapted to a marine lifestyle. These iguanas are herbivores that feed almost entirely on marine algae. To cope with the cold ocean water, they spend much of their time basking on black lava rocks to absorb heat from the sun. Despite their sometimes fearsome appearance, they are gentle creatures that exemplify the unique evolutionary pressures of the Galápagos environment.',
+    habitat: 'Marine iguanas live along the rocky coastlines and intertidal zones of the Galápagos Islands. They are often seen in large groups, clinging to sun-baked lava rocks where they can warm up and have easy access to the ocean for feeding. At night, they huddle together in crevices to conserve body heat.',
+    diet: 'Marine iguanas are herbivores that feed on marine algae. They dive into the ocean to scrape algae off submerged rocks with their blunt snouts and sharp teeth. They have special salt glands that allow them to expel excess salt by sneezing, leaving a white crust on their noses.',
+    behavior: 'These iguanas are highly gregarious, often basking together in large groups to warm up after a cold swim. Males become territorial during the breeding season, displaying brighter colors and head-bobbing to ward off rivals and attract females. Females dig nests in sandy soil and lay a few eggs, which are then left to incubate for several months until the young hatch and make their way to the shore.',
+    status: {
+      lifespan: 'Up to 20 years',
+      weight: '1-10 kg (2-22 lbs)',
+      conservation: 'Vulnerable'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'leopard-gecko',
+    name: 'Eublepharis macularius',
+    category: 'Reptiles',
+    commonName: 'Leopard Gecko',
+    description: 'A nocturnal, ground-dwelling lizard of Asian deserts, renowned for its engaging temperament and a wide variety of color morphs.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The leopard gecko is a popular pet lizard native to the dry grasslands and deserts of South-Central Asia. Unlike many geckos, it lacks sticky toe pads and is a ground-dweller, using its claws for digging. This nocturnal lizard is well-adapted to extreme temperatures, hiding in burrows during the day and emerging at night to hunt insects. It stores fat in its tail, which serves as an energy reserve. The leopard gecko is famous in the pet trade for its gentle nature and the hundreds of color morphs that have been developed through selective breeding.',
+    habitat: 'Leopard geckos are native to the dry, rocky grasslands and deserts of Afghanistan, Pakistan, northwestern India, and Iran. They are ground-dwelling lizards that shelter under rocks or in burrows during the day to escape the heat and emerge at night to hunt.',
+    diet: 'As an insectivore, the leopard gecko feeds on a variety of small arthropods, including crickets, beetles, moths, and spiders. It uses its tongue to sense prey before pouncing with surprising speed. The gecko stores fat from its meals in its tail to sustain it through periods of food scarcity.',
+    behavior: 'Leopard geckos are primarily nocturnal. They are one of the few lizards that vocalize, emitting squeaks and clicks. When threatened, a gecko may wave its tail or, as a last resort, drop its tail to distract a predator while it escapes. The tail will regenerate over time. They are solitary creatures, coming together only to mate, with females laying clutches of one or two eggs.',
+    status: {
+      lifespan: '6-10 years in the wild, 20+ in captivity',
+      weight: '45-65 g (1.6-2.3 oz)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'electric-blue-gecko',
+    name: 'Lygodactylus williamsi',
+    category: 'Reptiles',
+    commonName: 'Electric Blue Gecko',
+    description: 'A tiny, brilliantly colored day gecko native to a restricted area of Tanzania, famous for the male’s stunning blue coloration.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The electric blue gecko is a diminutive and highly charismatic lizard with a critically endangered status. It has a remarkably small natural habitat, found only in a few forest patches in Tanzania. Males of the species are a breathtaking electric blue, while females are a more subdued metallic greenish-brown. This diurnal gecko lives almost exclusively on screwpine trees, using its excellent camouflage and speed to avoid predators. The species has become a flagship for conservation efforts due to its popularity in the pet trade, which led to a severe decline in its wild population.',
+    habitat: 'This gecko has an extremely restricted natural habitat, confined to a few forest patches in eastern Tanzania. It lives almost exclusively on and around screwpine trees in tropical, humid environments. Each gecko typically lives its entire life within a single tree or a small clump of these plants.',
+    diet: 'This gecko is an insectivore, feeding on tiny invertebrates like fruit flies, gnats, and termites. It also supplements its diet with honeydew and nectar from flowers. Being active during the day, it uses its keen vision to hunt its prey.',
+    behavior: 'These geckos are arboreal and diurnal. Males are highly territorial and will defend their chosen tree from other males with head-bobbing displays. They are shy and quick, darting into crevices or hiding on the opposite side of a branch when disturbed. Females lay pairs of small, sticky eggs in hidden spots, and the hatchlings receive no parental care.',
+    status: {
+      lifespan: '5-10 years',
+      weight: '2 g (0.07 oz)',
+      conservation: 'Critically Endangered'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'armadillo-girdled-lizard',
+    name: 'Ouroborus cataphractus',
+    category: 'Reptiles',
+    commonName: 'Armadillo Girdled Lizard',
+    description: 'A small, armored lizard from South Africa famous for curling into a spiky ball to protect itself from predators.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The armadillo girdled lizard is a unique reptile native to the deserts and scrublands of South Africa. It is named for its remarkable defensive behavior: when threatened, it grabs its tail in its mouth and rolls into a tight, spiny ball, protecting its soft underbelly from predators. This diurnal lizard lives in small family groups in rock crevices and feeds on a diet of termites and other small invertebrates. Its armored body and unique defense posture make it a fascinating example of adaptation to a harsh, predator-filled environment.',
+    habitat: 'Armadillo girdled lizards are found in the rocky deserts and semi-arid scrublands of the northwestern Cape of South Africa. They make their homes in narrow rock crevices, which provide shelter from extreme temperatures and predators. They live in small groups and bask on rock surfaces near their shelter.',
+    diet: 'This lizard is primarily an insectivore, with a diet that consists mainly of termites and other small insects. They forage during the warm daylight hours, using their keen eyesight to spot prey. Their strong jaws allow them to crunch through the exoskeletons of their prey.',
+    behavior: 'The armadillo girdled lizard is best known for its unique defense posture of curling into a ball. They are diurnal and spend a lot of time basking on rocks near their crevices to warm up. They are social lizards, living in groups of up to a dozen individuals. They give birth to live young, who are active and remain with the group, an unusual trait for lizards.',
+    status: {
+      lifespan: '10-20 years',
+      weight: '70-90 g (2.5-3.2 oz)',
+      conservation: 'Vulnerable'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'blue-tongued-skink',
+    name: 'Tiliqua scincoides',
+    category: 'Reptiles',
+    commonName: 'Blue-tongued Skink',
+    description: 'An Australian lizard known for its unique bright blue tongue, which it flashes as a bluff to scare away predators.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The blue-tongued skink is a common and beloved lizard native to Australia and parts of New Guinea. It is a large, ground-dwelling reptile with a broad, flat body and a distinctive bright blue tongue. When threatened, the skink performs a bluff display, opening its mouth wide and sticking out its blue tongue to startle predators. It is an omnivore with a broad diet that includes snails, insects, fruits, and flowers. Blue-tongued skinks are a familiar sight in Australian backyards and are cherished for their gentle nature and pest control abilities.',
+    habitat: 'Blue-tongued skinks are found in a variety of Australian habitats, including woodlands, grasslands, and suburban gardens. They prefer areas with ample ground cover like leaf litter and fallen logs, where they can hide and bask. They are terrestrial and often live in close proximity to human settlements.',
+    diet: 'As an omnivore, the blue-tongued skink eats a mix of animal and plant material. Its diet includes snails, slugs, insects, spiders, fruits, and flowers. They are known to have powerful jaws that can crush snail shells with ease. They forage during the day and can sustain themselves for several days on a large meal.',
+    behavior: 'These skinks are diurnal and solitary. Their most famous behavior is their bluff display, where they hiss and flash their bright blue tongue to startle predators. They are not fast runners but can deliver a painful bite if cornered. Blue-tongued skinks give birth to live young, with litters of 5-15 babies that are independent from birth and receive no parental care.',
+    status: {
+      lifespan: '10-20 years in the wild, 20+ in captivity',
+      weight: '250-600 g (0.55-1.3 lbs)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'flying-dragon-lizard',
+    name: 'Draco volans',
+    category: 'Reptiles',
+    commonName: 'Flying Dragon Lizard',
+    description: 'An arboreal lizard from Southeast Asia known for its impressive ability to glide between trees using wing-like membranes.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The flying dragon lizard is a small, arboreal reptile native to the tropical rainforests of Southeast Asia. Its most remarkable feature is its ability to glide through the air using large, wing-like membranes supported by elongated ribs. This allows it to move between trees with great efficiency and to escape predators. Flying dragons are diurnal, spending their days actively hunting insects, particularly ants and termites, in the forest canopy. They are a fascinating example of evolutionary adaptation, earning them a place in folklore and nature documentaries.',
+    habitat: 'Flying dragon lizards live in the forest canopy and mid-story of tropical rainforests in Southeast Asia, from southern India to the Philippines. They are strictly arboreal and prefer forests with clearings or gaps that allow them to glide from tree to tree. They only descend to the ground to lay eggs.',
+    diet: 'Their diet consists almost entirely of insects, especially ants and termites. They scurry along branches and trunks, using their sticky tongue and quick reflexes to snatch up prey. They have evolved to handle the chemical defenses of ants, which are a dietary staple.',
+    behavior: 'The flying dragon lizard’s most extraordinary behavior is its gliding ability. When leaping from a tree, it spreads its patagia (gliding membranes) to soar through the air for impressive distances. They are territorial, with males displaying their colorful throat fans and head-bobbing to ward off rivals. Females descend to the ground to dig a nest and lay a few eggs, which they may guard for a short period before returning to the canopy.',
+    status: {
+      lifespan: '5-8 years',
+      weight: '10-20 g (0.35-0.7 oz)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'texas-horned-lizard',
+    name: 'Phrynosoma cornutum',
+    category: 'Reptiles',
+    commonName: 'Texas Horned Lizard',
+    description: 'A flat-bodied lizard of the American Southwest, famous for its spiny horns, unique camouflage, and ability to squirt blood from its eyes.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The Texas horned lizard, often nicknamed "horny toad," is an iconic reptile of the south-central United States and northern Mexico. With a flat, toad-like body and a crown of sharp horns, its primary defense is its remarkable camouflage. When threatened, it can puff up its body, use its spines to deter predators, and, most famously, squirt a stream of blood from its eyes to confuse and repel attackers. It is a specialized predator of ants, and its decline in recent decades has made it a symbol of conservation efforts in the Southwest.',
+    habitat: 'Horned lizards inhabit the deserts and semi-arid plains of Texas, Oklahoma, New Mexico, and northern Mexico. They thrive in open, flat habitats with sandy or loamy soils where they can easily burrow. They are often found in areas with abundant ant colonies, their primary food source.',
+    diet: 'This lizard is a specialized ant-eater, with a diet that consists mainly of harvester ants. It will sit near an ant trail and use its sticky tongue to lap up dozens or hundreds of ants in a single meal. It is immune to the ants\' venom and will also eat other small insects like termites and beetles.',
+    behavior: 'Texas horned lizards are diurnal, active during the cooler parts of the day. Their main defense is camouflage, but if threatened, they can puff up their bodies, use their sharp horns to deter predators, or squirt blood from their eyes. They are generally solitary and maintain small home ranges. Females lay a clutch of about a dozen eggs in an underground nest, and the babies are independent from birth.',
+    status: {
+      lifespan: '5-8 years',
+      weight: '30-70 g (1-2.5 oz)',
+      conservation: 'Near Threatened, and a protected species in many states'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'gaboon-viper',
+    name: 'Bitis gabonica',
+    category: 'Reptiles',
+    commonName: 'Gaboon Viper',
+    description: 'A massive, heavily-built viper of the African rainforest, known for its superb camouflage and the longest fangs of any snake.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The Gaboon viper is a large and powerful venomous snake native to the tropical rainforests and savannas of sub-Saharan Africa. Its body is adorned with a stunning geometric pattern that provides perfect camouflage on the forest floor, allowing it to remain motionless for days as an ambush predator. The Gaboon viper possesses the longest fangs and delivers the highest venom yield of any snake species. Despite its deadly potential, it is known for its mild and placid temperament, relying on its camouflage and a warning hiss to avoid conflict rather than actively striking.',
+    habitat: 'Gaboon vipers are found in the dense, leaf-littered floors of tropical rainforests and wet savannas of sub-Saharan Africa. They prefer areas of thick undergrowth and can also be found in adjacent farmlands. Their cryptic coloration makes them nearly invisible in their natural habitat.',
+    diet: 'As an ambush predator, the Gaboon viper preys on small mammals and ground-dwelling birds. It waits coiled and motionless until prey comes within striking range, then delivers a swift bite with its long fangs. The potent venom causes rapid shock and hemorrhage, quickly immobilizing its prey.',
+    behavior: 'Gaboon vipers are generally nocturnal and sedentary, often remaining in a single spot for days. They are not aggressive and rely on camouflage to avoid detection. If threatened, they will hiss as a warning and only strike if persistently provoked. They are viviparous, giving birth to live young, and there is no parental care.',
+    status: {
+      lifespan: '15-20 years',
+      weight: 'Up to 8 kg (18 lbs)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'black-mamba',
+    name: 'Dendroaspis polylepis',
+    category: 'Reptiles',
+    commonName: 'Black Mamba',
+    description: 'Africa’s longest and fastest venomous snake, a highly athletic hunter with a fearsome reputation and potent neurotoxic venom.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The black mamba is a long, slender, and highly venomous snake native to sub-Saharan Africa. It is renowned for its incredible speed, making it one of the fastest snakes in the world. Despite its name, its body is typically gray or brown, but it gets its name from the inky black interior of its mouth, which it displays as a threat. The black mamba is an active hunter of small mammals and birds, and while it is not inherently aggressive, it will strike repeatedly if cornered, injecting a potent, fast-acting neurotoxic venom. It holds a significant place in African folklore and is a symbol of danger and respect.',
+    habitat: 'Black mambas reside in the savannas, light woodlands, and rocky hills of sub-Saharan Africa. They prefer areas with ample hiding spots like termite mounds, hollow tree trunks, or rock crevices, which serve as their home base for hunting and a retreat from danger.',
+    diet: 'Black mambas are carnivorous and actively hunt small mammals and birds, including rats, squirrels, and hyraxes. They use their speed and keen eyesight to chase down prey, delivering multiple bites to quickly subdue it with their fast-acting neurotoxic venom.',
+    behavior: 'Known for its speed and defensive aggression, the black mamba will raise the front of its body, spread a narrow hood, and gape its black mouth as a warning when threatened. If the warning is ignored, it can strike multiple times in rapid succession. They are solitary and are active hunters during the day. They give birth to live young, which are fully venomous and independent from birth.',
+    status: {
+      lifespan: '10-15 years in the wild, longer in captivity',
+      weight: '1.6 kg (3.5 lbs) on average',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
+  },
+  {
+    slug: 'panther-chameleon',
+    name: 'Furcifer pardalis',
+    category: 'Reptiles',
+    commonName: 'Panther Chameleon',
+    description: 'A brilliantly colored chameleon from Madagascar, famous for its ability to change color for communication and mood.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The panther chameleon is a striking and highly adaptable lizard native to Madagascar. It is renowned for its vibrant coloration and a remarkable ability to change its skin patterns, primarily as a form of communication to signal mood, health, and dominance. These arboreal chameleons are diurnal, spending their days slowly and cautiously moving through trees and bushes. They are carnivorous, using their incredibly long, sticky tongue to capture insects with a speed that is astonishing. Males are fiercely territorial and will display their brightest colors to intimidate rivals, making them a captivating subject of study and a favorite in the pet trade.',
+    habitat: 'Panther chameleons are found in the warm, humid lowland forests and coastal scrub of Madagascar. They inhabit trees and bushes in both pristine rainforests and disturbed areas like plantations and gardens. They prefer areas where sunlight is available for basking and their home range is typically a cluster of trees or dense shrubs.',
+    diet: 'Panther chameleons are insectivores that hunt by ambushing its prey. It uses its independently rotating eyes to spot insects, then shoots out its long, sticky tongue to capture crickets, locusts, beetles, and other small arthropods. The tongue can extend up to one and a half times its body length, making it a highly effective hunter.',
+    behavior: 'Panther chameleons are diurnal and arboreal. They are most famous for their ability to change color, which they use for social signaling and thermoregulation. Males are highly territorial and will display vibrant colors and postures to ward off rivals. Females lay a clutch of 10-40 eggs in a hole dug on the forest floor, which they cover and leave to incubate for many months. The hatchlings are independent from birth.',
+    status: {
+      lifespan: '5-7 years',
+      weight: '100-200 g (3.5-7 oz)',
+      conservation: 'Least Concern'
+    },
+    relatedSpecies: []
   },
   {
     slug: 'great-white-shark',
@@ -637,8 +1112,9 @@ export const animals: Animal[] = [
 export const categories = ['Mammals', 'Birds', 'Reptiles', 'Marine Life'];
 
 export const getAnimalBySlug = (slug: string) => animals.find(a => a.slug === slug);
-export const getAnimalsByCategory = (category: string) => {
- return animals.filter(a => a.category.toLowerCase().replace(/\s+/g, '-') === category);
+export const getAnimalsByCategory = (inputCategory: string) => {
+  const formattedCategory = inputCategory.toLowerCase().replace(/\s+/g, '-');
+  return animals.filter(a => a.category.toLowerCase().replace(/\s+/g, '-') === formattedCategory);
 };
 
     
