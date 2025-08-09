@@ -5,12 +5,12 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export async function generateStaticParams() {
   return categories.map((category) => ({
-    category: category.toLowerCase().replace(' ', '-'),
+    category: category.toLowerCase().replace(/\s+/g, '-'),
   }));
 }
 
 export function generateMetadata({ params }: { params: { category: string } }) {
-    const categoryName = params.category.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase());
+    const categoryName = params.category.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
     return {
         title: `${categoryName} | Wildopedia`,
         description: `Explore all animals in the ${categoryName} category.`,
@@ -20,9 +20,9 @@ export function generateMetadata({ params }: { params: { category: string } }) {
 
 const CategoryPage = ({ params }: { params: { category: string } }) => {
   const categorySlug = params.category.toLowerCase();
-  const categoryName = categorySlug.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase());
+  const categoryName = categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
   
-  if (!categories.map(c => c.toLowerCase().replace(' ', '-')).includes(categorySlug)) {
+  if (!categories.map(c => c.toLowerCase().replace(/\s+/g, '-')).includes(categorySlug)) {
     notFound();
   }
 

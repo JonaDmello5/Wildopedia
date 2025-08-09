@@ -11,7 +11,7 @@ import { Leaf, HeartPulse, Weight, Clock, Landmark, Utensils, BrainCircuit } fro
 
 export async function generateStaticParams() {
   return animals.map((animal) => ({
-    category: animal.category.toLowerCase().replace(' ', '-'),
+    category: animal.category.toLowerCase().replace(/\s+/g, '-'),
     animal: animal.slug,
   }));
 }
@@ -32,14 +32,14 @@ export function generateMetadata({ params }: { params: { animal: string } }) {
 const AnimalProfilePage = ({ params }: { params: { category: string; animal: string } }) => {
   const animal = getAnimalBySlug(params.animal);
 
-  if (!animal || animal.category.toLowerCase().replace(' ', '-') !== params.category.toLowerCase()) {
+  if (!animal || animal.category.toLowerCase().replace(/\s+/g, '-') !== params.category.toLowerCase()) {
     notFound();
   }
 
   const breadcrumbs = [
     { href: '/', label: 'Home' },
-    { href: `/${animal.category.toLowerCase().replace(' ', '-')}`, label: animal.category },
-    { href: `/${animal.category.toLowerCase().replace(' ', '-')}/${animal.slug}`, label: animal.commonName },
+    { href: `/${animal.category.toLowerCase().replace(/\s+/g, '-')}`, label: animal.category },
+    { href: `/${animal.category.toLowerCase().replace(/\s+/g, '-')}/${animal.slug}`, label: animal.commonName },
   ];
   
   const related = animals.filter(a => animal.relatedSpecies.includes(a.slug));
@@ -127,7 +127,7 @@ const AnimalProfilePage = ({ params }: { params: { category: string; animal: str
                         <ul className="space-y-2">
                         {related.map(r => (
                             <li key={r.slug}>
-                                <Link href={`/${r.category.toLowerCase().replace(' ', '-')}/${r.slug}`} className="flex items-center gap-2 group">
+                                <Link href={`/${r.category.toLowerCase().replace(/\s+/g, '-')}/${r.slug}`} className="flex items-center gap-2 group">
                                     <Leaf className="h-4 w-4 text-primary group-hover:text-accent transition-colors"/>
                                     <span className="text-foreground/80 group-hover:text-foreground transition-colors">{r.commonName}</span>
                                 </Link>

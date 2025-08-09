@@ -20,7 +20,7 @@ const Header = () => {
             {categories.map((category) => (
               <Link
                 key={category}
-                href={`/${category.toLowerCase().replace(' ', '-')}`}
+                href={`/${category.toLowerCase().replace(/\s+/g, '-')}`}
                 className="transition-colors hover:text-primary"
               >
                 {category}
@@ -50,7 +50,7 @@ const Header = () => {
                   {categories.map((category) => (
                     <Link
                       key={category}
-                      href={`/${category.toLowerCase().replace(' ', '-')}`}
+                      href={`/${category.toLowerCase().replace(/\s+/g, '-')}`}
                       className="text-lg font-medium transition-colors hover:text-primary"
                     >
                       {category}
