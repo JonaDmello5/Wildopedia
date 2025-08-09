@@ -315,7 +315,7 @@ export const animals: Animal[] = [
     description: 'The mighty nomad of the Arctic ice, the world’s largest bear and a marine mammal.',
     imageUrl: 'https://placehold.co/400x300.png',
     bannerUrl: 'https://placehold.co/1200x400.png',
-    overview: 'Clad in a thick coat of white fur and a generous layer of insulating fat, the polar bear strides across the frozen seascape of the far north. As the world\'s largest bear, it is an apex predator in a world of ice and snow. Though their fur appears white, each hair is actually transparent and hollow, helping trap heat. Beneath their fur, a polar bear’s skin is black to absorb heat. They have massive paws that act like snowshoes and paddles. Polar bears are classified as marine mammals; their Latin name maritimus means “of the sea.”',
+    overview: 'The polar bear is the world\'s largest bear, an apex predator in a world of ice and snow. Though their fur appears white, each hair is actually transparent and hollow, helping trap heat. Beneath their fur, a polar bear’s skin is black to absorb heat. They have massive paws that act like snowshoes and paddles. Polar bears are classified as marine mammals; their Latin name maritimus means “of the sea.”',
     habitat: 'Polar bears are found in the Arctic regions of Canada, Russia, Greenland, Norway, and the United States (Alaska). They live on sea ice, which they use as a platform to hunt seals at open leads or breathing holes. Their habitat is intrinsically linked to the presence of the frozen ocean.',
     diet: 'Their primary prey is seals, particularly ringed and bearded seals, which have a high fat content. A polar bear’s powerful sense of smell can detect a seal from over a kilometer away. They need to eat a lot of calorie-rich blubber to sustain themselves in the cold.',
     behavior: 'Polar bears lead mostly solitary lives, with the exception of mothers raising cubs. Mating occurs in spring, after which a pregnant female builds a snow den to give birth during winter. She survives on her fat reserves while nursing her cubs. When they emerge in spring, she teaches them how to stalk and hunt across the ice. Polar bears are marathon swimmers, capable of covering long distances in frigid waters.',
@@ -324,7 +324,26 @@ export const animals: Animal[] = [
       weight: '400-700 kg (males), 150-350 kg (females)',
       conservation: 'Vulnerable',
     },
-    relatedSpecies: [],
+    relatedSpecies: ['grizzly-bear'],
+  },
+  {
+    slug: 'grizzly-bear',
+    name: 'Ursus arctos horribilis',
+    category: 'Mammals',
+    commonName: 'Grizzly Bear',
+    description: 'The formidable guardian of the North American wilds, feared and revered for its strength and tenacity.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'Grizzly bears, a subspecies of the brown bear, roam the forests, mountains, and tundra of North America. They wear a shaggy coat varying from sandy brown to almost black, often with white-tipped (“grizzled”) fur on their backs and shoulders that gives them their name. One of their most distinctive physical features is the muscular hump over their shoulders – this is a powerhouse of muscle attached to the spine, giving grizzlies the force for digging and swinging their massive paws.',
+    habitat: 'Grizzly bears inhabit the forests, mountains, and tundra of North America. They have a home range that can span hundreds of square kilometers. In colder climates, grizzlies enter a deep torpor in dens from about November to March.',
+    diet: 'Grizzlies are omnivores with a diverse diet: they’ll graze on berries, nuts, and grass, dig for rodents, devour carrion or prey they’ve killed (such as elk calves), and in some regions, gorge on spawning salmon in rivers.',
+    behavior: 'Grizzly bears are generally solitary and avoid humans. They spend a lot of time foraging to build up fat for winter. Females often give birth during hibernation to tiny cubs, who they fiercely protect for the next 2-3 years. Despite their bulk, they can run at speeds of about 35 miles per hour (56 km/h).',
+    status: {
+      lifespan: '20-25 years',
+      weight: 'Up to 300 kg (660 lbs)',
+      conservation: 'Threatened in the contiguous US, but stable in Alaska and Canada.',
+    },
+    relatedSpecies: ['polar-bear'],
   },
   {
     slug: 'scarlet-macaw',
@@ -564,3 +583,5 @@ export const getAnimalBySlug = (slug: string) => animals.find(a => a.slug === sl
 export const getAnimalsByCategory = (category: string) => {
  return animals.filter(a => a.category.toLowerCase().replace(/\s+/g, '-') === category);
 };
+
+    
