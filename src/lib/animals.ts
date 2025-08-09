@@ -467,6 +467,5 @@ export const categories = ['Mammals', 'Birds', 'Reptiles', 'Marine Life'];
 
 export const getAnimalBySlug = (slug: string) => animals.find(a => a.slug === slug);
 export const getAnimalsByCategory = (category: string) => {
-    const categoryName = category.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-    return animals.filter(a => a.category === categoryName);
+ return animals.filter(a => a.category.toLowerCase().replace(/\s+/g, '-') === category);
 };

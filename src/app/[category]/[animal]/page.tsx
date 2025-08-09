@@ -32,7 +32,8 @@ export function generateMetadata({ params }: { params: { animal: string } }) {
 const AnimalProfilePage = ({ params }: { params: { category: string; animal: string } }) => {
   const animal = getAnimalBySlug(params.animal);
 
-  if (!animal || animal.category.toLowerCase().replace(/\s+/g, '-') !== params.category.toLowerCase()) {
+  // Corrected validation logic
+  if (!animal || animal.category.toLowerCase().replace(/\s+/g, '-') !== params.category) {
     notFound();
   }
 
