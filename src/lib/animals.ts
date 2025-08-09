@@ -59,7 +59,7 @@ export const animals: Animal[] = [
     },
     relatedSpecies: ['bengal-tiger', 'lion'],
   },
-   {
+  {
     slug: 'red-panda',
     name: 'Ailurus fulgens',
     category: 'Mammals',
@@ -72,11 +72,11 @@ export const animals: Animal[] = [
     diet: 'Primarily eats bamboo, but also eggs, birds, and insects.',
     behavior: 'Arboreal, skillful and acrobatic climbers that spend most of their time in trees.',
     status: {
-        lifespan: '8-10 years',
-        weight: '3-6 kg (7-14 lbs)',
-        conservation: 'Endangered'
+      lifespan: '8-10 years',
+      weight: '3-6 kg (7-14 lbs)',
+      conservation: 'Endangered',
     },
-    relatedSpecies: ['siberian-tiger'],
+    relatedSpecies: ['giant-panda'],
   },
   {
     slug: 'giant-panda',
@@ -96,6 +96,25 @@ export const animals: Animal[] = [
       conservation: 'Vulnerable',
     },
     relatedSpecies: ['red-panda', 'polar-bear'],
+  },
+  {
+    slug: 'lion',
+    name: 'Panthera leo',
+    category: 'Mammals',
+    commonName: 'Lion',
+    description: 'The "king of the jungle," a social big cat living in prides, known for its powerful roar and majestic mane.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The African lion is often called the "king of the jungle," although it primarily inhabits savannahs and grasslands. Male lions are unique among big cats for their impressive manes, which grow darker and fuller with age. Lions are the second-largest big cats after tigers and live in social groups called prides. Both males and females can produce a thunderous roar audible up to 8 km away, a sound that asserts territory and helps pride members find one another. These apex predators symbolize strength and have been revered in human culture for millennia.',
+    habitat: 'Lions once roamed across Africa, Asia, and Europe, but today they survive mainly in sub-Saharan Africa (with a small population of Asiatic lions in India). They prefer grassy plains, savannahs, open woodlands, and scrub, where sufficient prey is available. Shade from scattered trees or thickets offers relief from midday heat.',
+    diet: 'Obligate carnivores, lions primarily hunt large herbivores such as zebras, wildebeest, buffalo, and antelope. Working in groups, a pride’s lionesses cooperate to stalk and ambush prey. A lion can consume up to 30% of its body weight in a single meal. They are also opportunistic scavengers—often driving off smaller predators (like hyenas or wild dogs) to steal carcasses.',
+    behavior: 'Lions are the most social of the big cats, living in prides that usually consist of related females, their cubs, and one or a few adult males. Females do most of the hunting, using teamwork to bring down prey. Male lions, with their larger size and mane, often take on protective roles, defending the pride’s territory (which can span over 250 km²) against rival males. Territorial behavior includes roaring choruses and scent-marking with urine. Despite their fearsome reputation, lions spend a lot of their time resting – up to 20 hours a day conserving energy for hunting bouts. When active, they are generally nocturnal or crepuscular (dawn/dusk) hunters, avoiding the heat of day.',
+    status: {
+      lifespan: '10-14 years in the wild',
+      weight: '120-200 kg (265-440 lbs)',
+      conservation: 'Vulnerable',
+    },
+    relatedSpecies: ['siberian-tiger', 'bengal-tiger'],
   },
   {
     slug: 'scarlet-macaw',
