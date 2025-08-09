@@ -1,3 +1,4 @@
+
 export type Animal = {
   slug: string;
   name: string;
@@ -77,6 +78,25 @@ export const animals: Animal[] = [
       conservation: 'Endangered',
     },
     relatedSpecies: ['giant-panda'],
+  },
+  {
+    slug: 'cheetah',
+    name: 'Acinonyx jubatus',
+    category: 'Mammals',
+    commonName: 'Cheetah',
+    description: 'The world’s fastest land animal, renowned for its speed and grace.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The cheetah is the world’s fastest land animal, renowned for its speed and grace. It has a lean build with long legs, a flexible spine, and semi-retractable claws – all adaptations for running down prey in bursts of astonishing acceleration. A cheetah can sprint from 0 to 95 km/h in mere seconds and reach top speeds around 100–120 km/h (about 60–75 mph), although only for short distances (~500 m). Its coat is tan with black spots, providing camouflage in the grasslands. Unlike other big cats, cheetahs do not roar; they purr and chirp, and they are relatively lightly built, built for speed over strength.',
+    habitat: 'Cheetahs favor open savannahs, grasslands, and arid deserts where they can make full use of their speed in open terrain. Historically ranging throughout Africa, the Middle East, and into India, they are now mostly found in sub-Saharan Africa with a small critically endangered population in Iran. They thrive in areas with good visibility and plentiful prey, such as expansive plains or lightly wooded bushveld.',
+    diet: 'A carnivore that relies on speed, the cheetah primarily hunts medium-sized ungulates. Common prey include impalas, gazelles (like Thomson’s gazelle), springbok, young wildebeest, and hares. Cheetahs are diurnal hunters (active mainly in early morning or late afternoon) to avoid competition with stronger nocturnal predators. They use a stealthy stalk to get within sprinting distance, then explode in a chase. A successful cheetah will often trip its prey with a swipe of the paw and suffocate it with a bite to the throat. Cheetahs eat quickly to avoid losing their kill – they’re frequently displaced by lions, hyenas, or leopards, being less powerful fighters.',
+    behavior: 'Unlike lions, cheetahs are solitary or live in small family groups. Adult females are solitary except when raising cubs. Males may form small coalitions (often littermates) that stay together for life, cooperating to defend a territory and hunt. Cheetahs do not have the strength to fight larger carnivores and often surrender kills to them. They avoid confrontation and rely on their incredible acceleration and agility to survive. Cheetah cubs have a mantle of long, silvery fur on their backs, thought to mimic the appearance of a honey badger (possibly to deter some predators). Mothers raise cubs alone, moving them frequently and teaching them hunting skills.',
+    status: {
+      lifespan: '10-12 years',
+      weight: '35-60 kg',
+      conservation: 'Vulnerable',
+    },
+    relatedSpecies: ['lion', 'leopard'],
   },
   {
     slug: 'giant-panda',
