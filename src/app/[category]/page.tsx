@@ -20,13 +20,14 @@ export function generateMetadata({ params }: { params: { category: string } }) {
 
 const CategoryPage = ({ params }: { params: { category: string } }) => {
   const categorySlug = params.category.toLowerCase();
-  const categoryName = categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
   
   if (!categories.map(c => c.toLowerCase().replace(/\s+/g, '-')).includes(categorySlug)) {
     notFound();
   }
 
-  const animalsInCategory = getAnimalsByCategory(categoryName);
+  const animalsInCategory = getAnimalsByCategory(categorySlug);
+  const categoryName = categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+
 
   const breadcrumbs = [
     { href: '/', label: 'Home' },

@@ -60,7 +60,7 @@ export const animals: Animal[] = [
     },
     relatedSpecies: ['lion'],
   },
-  {
+   {
     slug: 'red-panda',
     name: 'Ailurus fulgens',
     category: 'Mammals',
@@ -78,25 +78,6 @@ export const animals: Animal[] = [
       conservation: 'Endangered',
     },
     relatedSpecies: ['giant-panda'],
-  },
-  {
-    slug: 'cheetah',
-    name: 'Acinonyx jubatus',
-    category: 'Mammals',
-    commonName: 'Cheetah',
-    description: 'The world’s fastest land animal, renowned for its speed and grace.',
-    imageUrl: 'https://placehold.co/400x300.png',
-    bannerUrl: 'https://placehold.co/1200x400.png',
-    overview: 'The cheetah is the world’s fastest land animal, renowned for its speed and grace. It has a lean build with long legs, a flexible spine, and semi-retractable claws – all adaptations for running down prey in bursts of astonishing acceleration. A cheetah can sprint from 0 to 95 km/h in mere seconds and reach top speeds around 100–120 km/h (about 60–75 mph), although only for short distances (~500 m). Its coat is tan with black spots, providing camouflage in the grasslands. Unlike other big cats, cheetahs do not roar; they purr and chirp, and they are relatively lightly built, built for speed over strength.',
-    habitat: 'Cheetahs favor open savannahs, grasslands, and arid deserts where they can make full use of their speed in open terrain. Historically ranging throughout Africa, the Middle East, and into India, they are now mostly found in sub-Saharan Africa with a small critically endangered population in Iran. They thrive in areas with good visibility and plentiful prey, such as expansive plains or lightly wooded bushveld.',
-    diet: 'A carnivore that relies on speed, the cheetah primarily hunts medium-sized ungulates. Common prey include impalas, gazelles (like Thomson’s gazelle), springbok, young wildebeest, and hares. Cheetahs are diurnal hunters (active mainly in early morning or late afternoon) to avoid competition with stronger nocturnal predators. They use a stealthy stalk to get within sprinting distance, then explode in a chase. A successful cheetah will often trip its prey with a swipe of the paw and suffocate it with a bite to the throat. Cheetahs eat quickly to avoid losing their kill – they’re frequently displaced by lions, hyenas, or leopards, being less powerful fighters.',
-    behavior: 'Unlike lions, cheetahs are solitary or live in small family groups. Adult females are solitary except when raising cubs. Males may form small coalitions (often littermates) that stay together for life, cooperating to defend a territory and hunt. Cheetahs do not have the strength to fight larger carnivores and often surrender kills to them. They avoid confrontation and rely on their incredible acceleration and agility to survive. Cheetah cubs have a mantle of long, silvery fur on their backs, thought to mimic the appearance of a honey badger (possibly to deter some predators). Mothers raise cubs alone, moving them frequently and teaching them hunting skills.',
-    status: {
-      lifespan: '10-12 years',
-      weight: '35-60 kg',
-      conservation: 'Vulnerable',
-    },
-    relatedSpecies: ['lion', 'jaguar'],
   },
   {
     slug: 'giant-panda',
@@ -134,7 +115,26 @@ export const animals: Animal[] = [
       weight: '120-200 kg (265-440 lbs)',
       conservation: 'Vulnerable',
     },
-    relatedSpecies: ['siberian-tiger'],
+    relatedSpecies: ['siberian-tiger', 'cheetah', 'jaguar'],
+  },
+  {
+    slug: 'cheetah',
+    name: 'Acinonyx jubatus',
+    category: 'Mammals',
+    commonName: 'Cheetah',
+    description: 'The world’s fastest land animal, renowned for its speed and grace.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The cheetah is the world’s fastest land animal, renowned for its speed and grace. It has a lean build with long legs, a flexible spine, and semi-retractable claws – all adaptations for running down prey in bursts of astonishing acceleration. A cheetah can sprint from 0 to 95 km/h in mere seconds and reach top speeds around 100–120 km/h (about 60–75 mph), although only for short distances (~500 m). Its coat is tan with black spots, providing camouflage in the grasslands. Unlike other big cats, cheetahs do not roar; they purr and chirp, and they are relatively lightly built, built for speed over strength.',
+    habitat: 'Cheetahs favor open savannahs, grasslands, and arid deserts where they can make full use of their speed in open terrain. Historically ranging throughout Africa, the Middle East, and into India, they are now mostly found in sub-Saharan Africa with a small critically endangered population in Iran. They thrive in areas with good visibility and plentiful prey, such as expansive plains or lightly wooded bushveld.',
+    diet: 'A carnivore that relies on speed, the cheetah primarily hunts medium-sized ungulates. Common prey include impalas, gazelles (like Thomson’s gazelle), springbok, young wildebeest, and hares. Cheetahs are diurnal hunters (active mainly in early morning or late afternoon) to avoid competition with stronger nocturnal predators. They use a stealthy stalk to get within sprinting distance, then explode in a chase. A successful cheetah will often trip its prey with a swipe of the paw and suffocate it with a bite to the throat. Cheetahs eat quickly to avoid losing their kill – they’re frequently displaced by lions, hyenas, or leopards, being less powerful fighters.',
+    behavior: 'Unlike lions, cheetahs are solitary or live in small family groups. Adult females are solitary except when raising cubs. Males may form small coalitions (often littermates) that stay together for life, cooperating to defend a territory and hunt. Cheetahs do not have the strength to fight larger carnivores and often surrender kills to them. They avoid confrontation and rely on their incredible acceleration and agility to survive. Cheetah cubs have a mantle of long, silvery fur on their backs, thought to mimic the appearance of a honey badger (possibly to deter some predators). Mothers raise cubs alone, moving them frequently and teaching them hunting skills.',
+    status: {
+      lifespan: '10-12 years',
+      weight: '35-60 kg',
+      conservation: 'Vulnerable',
+    },
+    relatedSpecies: ['lion', 'jaguar'],
   },
   {
     slug: 'jaguar',
@@ -153,7 +153,26 @@ export const animals: Animal[] = [
       weight: '70-100 kg (154-220 lbs)',
       conservation: 'Near Threatened',
     },
-    relatedSpecies: ['siberian-tiger', 'cheetah'],
+    relatedSpecies: ['siberian-tiger', 'cheetah', 'lion'],
+  },
+  {
+    slug: 'leopard',
+    name: 'Panthera pardus',
+    category: 'Mammals',
+    commonName: 'Leopard',
+    description: 'A versatile and stealthy big cat found in Africa and Asia, renowned for its climbing ability.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    bannerUrl: 'https://placehold.co/1200x400.png',
+    overview: 'The leopard is a versatile and stealthy big cat found in Africa and parts of Asia. It has a lean, muscular body with short powerful limbs and a long tail that aids in balance. Its coat is tawny golden with black rosettes (no central dot) on the body and solid black spots on the face and limbs. This pattern provides excellent camouflage in a variety of environments, from grasslands to forests. Leopards are renowned for their strength-to-weight ratio and arboreal prowess – they can haul prey larger than themselves into trees, an ability that protects their kills from scavengers. Smaller than lions and tigers, but with a broad geographic range and adaptable behavior, the leopard is the most widespread big cat.',
+    habitat: 'Leopards occupy a wide range of habitats – savannas, woodlands, equatorial forests, mountain highlands, semi-deserts, and even urban fringes. In Africa, they thrive in savannahs and open woodlands, as well as equatorial rainforests. In Asia, they range from tropical forests in India and Southeast Asia to temperate forests and rugged mountains (as in the Caucasus). They are at home both in hot lowlands and cool highlands. This adaptability is aided by their solitary and elusive nature. Leopards often rest in trees or dense thickets during the day and patrol large territories at night.',
+    diet: 'Supremely opportunistic, leopards eat anything from insects and rodents to hoofed animals several times their weight. Common prey are medium-sized antelope (impala, bushbuck), deer, warthogs, monkeys, and in Asia, animals like chital or wild boar. They will also catch birds, reptiles, hares, and even fish if available. In settlements, they may prey on dogs or livestock (leading to conflict). A hallmark of leopard behavior is dragging kills into trees: a leopard can carry prey up to three times its own weight into a tree’s branches, securing the meal from hyenas or lions on the ground. They stash carcasses on high limbs and return to feed over several days. This tree-caching ability allows leopards to coexist in areas with larger carnivores by avoiding direct confrontation.',
+    behavior: 'Leopards are solitary, coming together only to mate or for a mother to rear cubs. They are primarily nocturnal, using darkness to stalk and ambush. Exceptionally stealthy, a leopard moves silently and often very close to the ground when approaching prey. Leopards mark territory with claw scratches on trees and urine sprays. Males’ territories overlap those of several females, and males may fight fiercely over mating rights. Females give birth to litters of 1–3 cubs in a hidden den (rock crevice, thicket, or hollow tree). She frequently moves the cubs to new safe locations and teaches them hunting skills until they disperse around 18–24 months old. In conflict with other predators, leopards avoid direct fights – they often quietly yield kills to aggressive scavengers, or slink away from lions. Thanks to their climbing skill and adaptability, they manage to survive in proximity to more dominant species and even on human outskirts (feeding on rodents or domestic animals). They are powerful swimmers as well, though they don’t take to water as readily as jaguars.',
+    status: {
+        lifespan: '12-17 years in the wild',
+        weight: 'males ~50-90 kg, females ~30-60 kg',
+        conservation: 'Vulnerable',
+    },
+    relatedSpecies: ['lion', 'siberian-tiger', 'jaguar', 'cheetah'],
   },
   {
     slug: 'scarlet-macaw',
@@ -390,4 +409,7 @@ export const animals: Animal[] = [
 export const categories = ['Mammals', 'Birds', 'Reptiles', 'Marine Life'];
 
 export const getAnimalBySlug = (slug: string) => animals.find(a => a.slug === slug);
-export const getAnimalsByCategory = (category: string) => animals.filter(a => a.category === category);
+export const getAnimalsByCategory = (category: string) => {
+    const categoryName = category.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+    return animals.filter(a => a.category === categoryName);
+};
