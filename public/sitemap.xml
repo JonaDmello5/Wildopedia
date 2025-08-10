@@ -1,476 +1,476 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-domain.com/</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/about</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/about</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/contact</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/contact</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/privacy</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/privacy</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/african-elephant</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/african-elephant</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/siberian-tiger</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/siberian-tiger</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/red-panda</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/red-panda</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/giant-panda</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/giant-panda</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/lion</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/lion</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/cheetah</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/cheetah</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/jaguar</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/jaguar</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/leopard</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/leopard</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/gray-wolf</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/gray-wolf</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/mountain-gorilla</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/mountain-gorilla</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/orangutan</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/orangutan</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/chimpanzee</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/chimpanzee</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/giraffe</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/giraffe</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/hippopotamus</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/hippopotamus</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/rhinoceros</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/rhinoceros</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/polar-bear</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/polar-bear</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/grizzly-bear</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/grizzly-bear</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/mammals/zebra</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/mammals/zebra</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/scarlet-macaw</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/scarlet-macaw</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/bald-eagle</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/bald-eagle</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/blue-and-yellow-macaw</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/blue-and-yellow-macaw</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/emperor-penguin</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/emperor-penguin</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/peregrine-falcon</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/peregrine-falcon</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/wandering-albatross</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/wandering-albatross</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/kiwi</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/kiwi</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/common-raven</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/common-raven</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/indian-peafowl</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/indian-peafowl</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/common-ostrich</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/common-ostrich</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/albatross</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/albatross</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/scarlet-ibis</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/scarlet-ibis</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/shoebill</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/shoebill</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/birds/bee-eater</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/birds/bee-eater</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/komodo-dragon</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/komodo-dragon</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/green-sea-turtle</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/green-sea-turtle</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/saltwater-crocodile</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/saltwater-crocodile</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/king-cobra</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/king-cobra</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/green-anaconda</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/green-anaconda</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/galapagos-giant-tortoise</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/galapagos-giant-tortoise</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/leatherback-sea-turtle</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/leatherback-sea-turtle</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/gila-monster</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/gila-monster</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/reticulated-python</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/reticulated-python</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/inland-taipan</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/inland-taipan</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/eastern-diamondback-rattlesnake</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/eastern-diamondback-rattlesnake</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/gharial</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/gharial</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/frilled-lizard</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/frilled-lizard</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/green-basilisk-lizard</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/green-basilisk-lizard</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/thorny-devil</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/thorny-devil</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/tuatara</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/tuatara</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/marine-iguana</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/marine-iguana</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/leopard-gecko</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/leopard-gecko</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/electric-blue-gecko</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/electric-blue-gecko</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/armadillo-girdled-lizard</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/armadillo-girdled-lizard</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/blue-tongued-skink</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/blue-tongued-skink</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/flying-dragon-lizard</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/flying-dragon-lizard</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/texas-horned-lizard</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/texas-horned-lizard</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/gaboon-viper</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/gaboon-viper</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/black-mamba</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/black-mamba</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/reptiles/panther-chameleon</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/reptiles/panther-chameleon</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/great-white-shark</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/great-white-shark</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/orca</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/orca</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/bottlenose-dolphin</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/bottlenose-dolphin</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/humpback-whale</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/humpback-whale</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/giant-pacific-octopus</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/giant-pacific-octopus</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/whale-shark</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/whale-shark</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/giant-manta-ray</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/giant-manta-ray</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/leopard-seal</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/leopard-seal</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/blue-marlin</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/blue-marlin</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/blue-whale</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/blue-whale</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/sailfish</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/sailfish</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/common-cuttlefish</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/common-cuttlefish</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/marine-life/sea-otter</loc>
-    <lastmod>2024-08-11</lastmod>
+    <loc>https://wildopedia.vercel.app/marine-life/sea-otter</loc>
+    <lastmod>2025-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
