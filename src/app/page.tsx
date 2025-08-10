@@ -6,6 +6,7 @@ import AnimalCard from '@/components/AnimalCard';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import SearchBar from '@/components/SearchBar';
+import { Suspense } from 'react';
 
 const categoryIcons = {
   Mammals: <PawPrint className="h-10 w-10 text-accent" />,
@@ -43,7 +44,9 @@ export default function Home() {
             Explore the fascinating world of animals, from the depths of the oceans to the highest mountain peaks.
           </p>
           <div className="mt-8 w-full max-w-2xl">
-            <SearchBar />
+            <Suspense fallback={<div>Loading search bar...</div>}>
+              <SearchBar />
+            </Suspense>
           </div>
         </div>
       </section>
