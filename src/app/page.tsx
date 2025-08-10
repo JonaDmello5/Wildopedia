@@ -27,7 +27,7 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="relative h-[50vh] w-full">
         <Image
-          src="/image/20250810_2041_Lion's Intense Focus_simple_compose_01k2a8jp1wezhaeed27wpqg4wc.gif"
+          src="/images/20250810_2041_Lion's Intense Focus_simple_compose_01k2a8jp1wezhaeed27wpqg4wc.gif"
           alt="A montage of diverse wildlife"
           layout="fill"
           objectFit="cover"

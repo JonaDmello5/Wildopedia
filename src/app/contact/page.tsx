@@ -23,31 +23,23 @@ const ContactPage = () => {
         <p className="text-lg text-muted-foreground mb-8">
           Have a question, suggestion, or just want to say hello? Fill out the form below and we'll get back to you as soon as possible.
         </p>
-        
-        <form className="space-y-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="space-y-2">
-              <Label htmlFor="firstName">First Name</Label>
-              <Input id="firstName" placeholder="John" />
+
+        <form method="POST" action="/api/contact">
+          <div className="grid gap-6">
+            <div className="grid gap-2">
+              <Label htmlFor="name">Name</Label>
+              <Input id="name" type="text" placeholder="Your Name" />
             </div>
-            <div className="space-y-2">
-              <Label htmlFor="lastName">Last Name</Label>
-              <Input id="lastName" placeholder="Doe" />
+            <div className="grid gap-2">
+              <Label htmlFor="email">Email</Label>
+              <Input id="email" type="email" placeholder="your@email.com" />
             </div>
+            <div className="grid gap-2">
+              <Label htmlFor="message">Message</Label>
+              <Textarea id="message" placeholder="Your message here" className="min-h-[150px]" />
+            </div>
+            <Button type="submit">Send Message</Button>
           </div>
-          <div className="space-y-2">
-            <Label htmlFor="email">Email</Label>
-            <Input id="email" type="email" placeholder="john.doe@example.com" />
-          </div>
-          <div className="space-y-2">
-            <Label htmlFor="subject">Subject</Label>
-            <Input id="subject" placeholder="Question about Elephants" />
-          </div>
-          <div className="space-y-2">
-            <Label htmlFor="message">Message</Label>
-            <Textarea id="message" placeholder="Your message here..." rows={6} />
-          </div>
-          <Button type="submit" className="w-full">Send Message</Button>
         </form>
       </div>
     </div>
