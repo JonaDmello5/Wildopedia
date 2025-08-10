@@ -27,13 +27,14 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="relative h-[50vh] w-full">
         <Image
-          src="https://placehold.co/1600x800.png"
+          src="/image/20250810_2041_Lion's Intense Focus_simple_compose_01k2a8jp1wezhaeed27wpqg4wc.gif"
           alt="A montage of diverse wildlife"
           layout="fill"
           objectFit="cover"
           className="z-0"
           data-ai-hint="wildlife montage"
           priority
+          unoptimized
         />
         <div className="relative z-10 flex h-full flex-col items-center justify-center bg-black/50 text-center">
           <h1 className="text-4xl font-bold text-white md:text-6xl font-headline">Welcome to Wildopedia</h1>
