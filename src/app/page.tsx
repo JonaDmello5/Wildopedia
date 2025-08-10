@@ -5,6 +5,7 @@ import { animals } from '@/lib/animals';
 import AnimalCard from '@/components/AnimalCard';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import SearchBar from '@/components/SearchBar';
 
 const categoryIcons = {
   Mammals: <PawPrint className="h-10 w-10 text-accent" />,
@@ -36,11 +37,14 @@ export default function Home() {
           priority
           unoptimized
         />
-        <div className="relative z-10 flex h-full flex-col items-center justify-center bg-black/50 text-center">
+        <div className="relative z-10 flex h-full flex-col items-center justify-center bg-black/50 text-center p-4">
           <h1 className="text-4xl font-bold text-white md:text-6xl font-headline">Welcome to Wildopedia</h1>
           <p className="mt-4 max-w-2xl text-lg text-gray-200">
             Explore the fascinating world of animals, from the depths of the oceans to the highest mountain peaks.
           </p>
+          <div className="mt-8 w-full max-w-2xl">
+            <SearchBar />
+          </div>
         </div>
       </section>
 

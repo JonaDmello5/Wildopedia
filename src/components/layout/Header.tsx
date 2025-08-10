@@ -3,20 +3,19 @@ import { Menu, PawPrint } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { categories } from '@/lib/animals';
-import SearchBar from '@/components/SearchBar';
 
 const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
-        <div className="mr-4 hidden md:flex">
+        <div className="mr-4 flex w-full items-center justify-between md:w-auto md:flex-none">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <PawPrint className="h-6 w-6 text-primary" />
             <span className="hidden font-bold sm:inline-block font-headline">
               Wildopedia
             </span>
           </Link>
-          <nav className="flex items-center space-x-6 text-sm font-medium">
+          <nav className="hidden items-center space-x-6 text-sm font-medium md:flex">
             {categories.map((category) => (
               <Link
                 key={category}
@@ -29,10 +28,7 @@ const Header = () => {
           </nav>
         </div>
 
-        <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
-          <div className="w-full flex-1 md:w-auto md:flex-none">
-            <SearchBar />
-          </div>
+        <div className="flex flex-1 items-center justify-end space-x-2 md:justify-end">
           <div className="md:hidden">
             <Sheet>
               <SheetTrigger asChild>
