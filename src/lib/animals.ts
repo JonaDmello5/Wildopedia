@@ -1,4 +1,6 @@
 
+import { toSlug } from './utils';
+
 export type Animal = {
   slug: string;
   name: string;
@@ -1250,7 +1252,7 @@ export const animals: Animal[] = [
     "bannerUrl": "https://placehold.co/1200x400.png",
     "overview": "The whale shark is the largest fish in the ocean, reaching lengths of up to 18 meters (60 feet) and weights of more than 20 metric tons. Despite its massive size and imposing appearance, the whale shark is a gentle filter-feeder, gliding slowly through tropical and warm-temperate seas in search of plankton, small fish, and other tiny organisms. Its wide, flat head is adorned with a large terminal mouth that can span up to 1.5 meters (5 feet) across, allowing it to draw in thousands of liters of water per hour. Distinctive markings—pale spots and stripes over a dark gray-blue background—form a unique pattern on each individual, much like a human fingerprint, which scientists use to identify and track them. These markings also contribute to their iconic appearance, making the whale shark one of the most recognizable marine animals.\n\nWhale sharks are highly migratory, traveling vast distances across ocean basins to follow seasonal plankton blooms and breeding opportunities. Tagging studies have revealed remarkable journeys, with individuals crossing thousands of kilometers between feeding grounds. They are known to visit coastal areas, often in predictable aggregations, such as those off the coasts of Mexico, the Philippines, and Western Australia, where nutrient-rich waters attract plankton and small fish in large quantities. Feeding behavior is primarily ram filtration: the whale shark swims forward with its mouth open, allowing water to flow in, which is then expelled through its gills after passing over specialized filter pads that trap food. They are also capable of stationary suction feeding, where they actively gulp water into the mouth before filtering it.\n\nDespite their size, whale sharks are slow swimmers, generally moving at speeds around 3 miles per hour (5 km/h). This unhurried pace, combined with their docile nature, makes them popular with divers and snorkelers in ecotourism hotspots. Whale sharks are not aggressive and pose no threat to humans; in fact, their calm demeanor has made them an ambassador species for ocean conservation. However, they are vulnerable to threats such as accidental capture in fishing gear, vessel strikes, and targeted fishing in some parts of the world for meat, fins, and oil. Their slow growth rate, late maturity (around 30 years), and low reproductive output make population recovery challenging.\n\nReproductive biology in whale sharks remains poorly understood. They are ovoviviparous, meaning eggs develop inside the female’s body and hatch internally before live young are born. A single female has been found to carry hundreds of embryos at various developmental stages, suggesting a strategy of multiple paternity or prolonged sperm storage. Newborn whale sharks, measuring about 40–60 cm (16–24 inches) long, are rarely observed, and their nursery habitats remain largely unknown.\n\nWhale sharks play an important ecological role in marine ecosystems by regulating plankton populations and connecting different oceanic regions through their migrations. Conservation efforts focus on habitat protection, fishing regulation, and ecotourism management to reduce stress and injury. They are listed as Endangered by the IUCN, highlighting the need for global cooperation in research and protection. Observing a whale shark in the wild—its massive silhouette emerging from the blue, mouth agape in serene feeding—can be a life-changing experience, reminding us of the ocean’s vastness and the gentle giants that inhabit it.",
     "habitat": "Tropical and warm-temperate oceans worldwide, often near surface waters in coastal and offshore areas.",
-    "diet": "Plankton, small fish, squid, and other microscopic organisms filtered from the water.",
+    "diet": "Plankton, small fish, squid, and other microscopic organisms filtered from the water column.",
     "behavior": "Solitary or in loose aggregations; slow-moving filter-feeder with both ram and suction feeding modes.",
     "status": {
       "lifespan": "Estimated 70–100 years",
@@ -1435,10 +1437,21 @@ export const animals: Animal[] = [
 
 export const categories = ['Mammals', 'Birds', 'Reptiles', 'Marine Life'];
 
-export const getAnimalBySlug = (slug: string) => animals.find(a => a.slug === slug);
-export const getAnimalsByCategory = (inputCategory: string) => {
-  const formattedCategory = inputCategory.toLowerCase().replace(/\s+/g, '-');
-  return animals.filter(a => a.category.toLowerCase().replace(/\s+/g, '-') === formattedCategory);
+export const getAnimalBySlug = (slug: string) => {
+  const s = toSlug(slug);
+  return animals.find(
+    a => toSlug(a.slug) === s || toSlug(a.commonName) === s || toSlug(a.name) === s
+  );
 };
 
-    
+export const getAnimalsByCategory = (inputCategory: string) => {
+  const c = toSlug(inputCategory);
+  return animals.filter(a => toSlug(a.category) === c);
+};
+
+/** Canonical params for routes (used by generateStaticParams) */
+export const getAllAnimalParams = () =>
+  animals.map(a => ({
+    category: toSlug(a.category),
+    animal: toSlug(a.slug || a.commonName || a.name),
+  }));
