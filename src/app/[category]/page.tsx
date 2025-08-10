@@ -2,11 +2,10 @@ import { notFound } from 'next/navigation';
 import { getAnimalsByCategory, categories } from '@/lib/animals';
 import AnimalCard from '@/components/AnimalCard';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { toSlug } from '@/lib/utils';
 
 export async function generateStaticParams() {
-  return categories.map((category) => ({
-    category: category.toLowerCase().replace(/\s+/g, '-'),
-  }));
+  return categories.map(category => ({ category: toSlug(category) }));
 }
 
 export function generateMetadata({ params }: { params: { category: string } }) {
@@ -20,7 +19,7 @@ export function generateMetadata({ params }: { params: { category: string } }) {
 
 const CategoryPage = ({ params }: { params: { category: string } }) => {
   const categorySlug = params.category.toLowerCase();
-  
+
   if (!categories.map(c => c.toLowerCase().replace(/\s+/g, '-')).includes(categorySlug)) {
     notFound();
   }

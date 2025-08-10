@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import type { Animal } from '@/lib/animals';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { toSlug } from '@/lib/utils';
 
 interface AnimalCardProps {
   animal: Animal;
@@ -9,7 +10,7 @@ interface AnimalCardProps {
 
 const AnimalCard = ({ animal }: AnimalCardProps) => {
   return (
-    <Link href={`/${animal.category.replace(/\s+/g, '-').toLowerCase()}/${animal.slug}`} passHref>
+    <Link href={`/${toSlug(animal.category)}/${toSlug(animal.slug || animal.commonName)}`} passHref>
       <Card className="group h-full transform overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl">
         <CardHeader className="p-0">
           <div className="relative h-48 w-full">

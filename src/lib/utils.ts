@@ -10,7 +10,7 @@ export function toSlug(input: string): string {
   if (!input) return ''
   return input
     .normalize('NFKD')                 // split accents
-    .replace(/[\u0300-\u036f]/g, '')   // remove diacritics
+ .replace(/[̀-ͯ]/g, '')   // remove diacritics
     .toLowerCase()
     .trim()
     .replace(/&/g, ' and ')
