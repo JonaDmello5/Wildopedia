@@ -41,7 +41,6 @@ export const animals: Animal[] = [
       conservation: 'Vulnerable',
     },
     relatedSpecies: ['rhinoceros', 'giraffe'],
-    videoUrl: 'https://www.youtube.com/embed/nS_3Uv_2A7c',
   },
   {
     slug: 'siberian-tiger',
@@ -403,7 +402,6 @@ export const animals: Animal[] = [
       conservation: 'Least Concern',
     },
     relatedSpecies: [],
-    videoUrl: 'https://www.youtube.com/embed/9T-g3gGUTLw',
   },
   {
     slug: 'blue-and-yellow-macaw',
@@ -651,7 +649,6 @@ export const animals: Animal[] = [
       conservation: 'Endangered',
     },
     relatedSpecies: [],
-    videoUrl: 'https://www.youtube.com/embed/rGN8K-9V9UQ',
   },
   {
     slug: 'green-sea-turtle',
